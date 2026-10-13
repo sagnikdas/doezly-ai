@@ -1,12 +1,14 @@
 ---
-title: "Epic Games Reportedly Pushes AI Tools to Finish Disney Game on Schedule"
-description: "Epic Games has directed internal teams to adopt generative AI tools—for code, art, and QA—to accelerate development of its Disney-licensed game and hit production deadlines, according to recent reports."
+title: Epic Games Reportedly Pushes AI Tools to Finish Disney Game on Schedule
+description: Epic Games has directed internal teams to adopt generative AI
+  tools—for code, art, and QA—to accelerate development of its Disney-licensed
+  game and hit production deadlines, according to recent reports.
 pubDatetime: 2026-10-13T19:29:42.965Z
-draft: true
+draft: false
+featured: true
 tags:
   - workflows-and-agents
 ---
-
 Epic Games is reportedly instructing employees to lean on AI tools—coding copilots, generative art systems, and automated QA—to accelerate delivery of its Disney-branded game, signaling a broader industry shift toward AI-assisted production pipelines under tight publisher deadlines.
 
 ## TL;DR
@@ -31,14 +33,16 @@ According to recent reporting, Epic's internal guidance includes:
 
 ## Traditional vs. AI-Assisted Game Production Workflow
 
+
 | Stage | Traditional Workflow | AI-Assisted Workflow |
-|---|---|---|
+| ------------------------- | ----------------------------------- | ----------------------------------------------- |
 | Concept art | Manual iteration, days per round | AI-generated variants in hours, human curation |
 | Code/scripting | Manual implementation + code review | Copilot-drafted code + human review |
 | QA/testing | Manual test case writing | AI-generated test suites, anomaly detection |
 | Localization | Human translators first-pass | AI draft + human linguist pass |
 | Brand compliance (Disney) | Manual legal/brand review | Manual review unchanged (AI output still gated) |
 | Timeline impact | Baseline | Compressed cycles, same headcount |
+
 
 Note: brand compliance remains human-gated regardless of AI use—licensors like Disney typically require manual sign-off on any AI-touched asset.
 
