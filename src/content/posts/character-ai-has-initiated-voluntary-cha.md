@@ -1,12 +1,14 @@
 ---
-title: "Character.ai Files for Chapter 11 Bankruptcy; Disney Emerges as Lead Bidder"
-description: "Character.ai has voluntarily filed for Chapter 11 bankruptcy protection just five years after launch, with Disney reportedly submitting a bid for its assets amid mounting IP litigation and compute costs."
+title: Character.ai Files for Chapter 11 Bankruptcy; Disney Emerges as Lead Bidder
+description: Character.ai has voluntarily filed for Chapter 11 bankruptcy
+  protection just five years after launch, with Disney reportedly submitting a
+  bid for its assets amid mounting IP litigation and compute costs.
 pubDatetime: 2026-10-13T19:09:47.501Z
-draft: true
+draft: false
+featured: true
 tags:
   - workflows-and-agents
 ---
-
 Character.ai has filed for voluntary Chapter 11 bankruptcy protection, marking one of the fastest rise-to-restructuring arcs in the generative AI sector, with Disney now reported as a lead bidder for the company's assets.
 
 ## What Happened
@@ -23,13 +25,15 @@ Chapter 11 allows Character.ai to continue operating while restructuring debt an
 
 This filing is a signal event for teams building consumer-facing LLM products on thin margins:
 
+
 | Factor | Character.ai Risk Profile | Lesson for Builders |
-|---|---|---|
+| ------------------- | --------------------------------------------------------- | ----------------------------------------------------------- |
 | Unit economics | High inference cost per active user, low monetization | Model cost-per-conversation before scaling free tiers |
 | IP/legal exposure | Persona-based outputs invited copyright & likeness claims | Audit training data and output rights early |
 | Platform dependency | Reliant on third-party model infra and licensing | Diversify model providers; avoid single points of failure |
 | Monetization timing | Subscription conversion lagged user growth | Introduce paid tiers before scaling free usage aggressively |
 | Acquirer interest | Strategic buyers (Disney) value IP + engagement data | Structured data and brand-safe outputs retain asset value |
+
 
 ## Timeline Snapshot
 
