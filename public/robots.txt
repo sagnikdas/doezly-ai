@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+
+# Explicit permissions for AI search and generative answer engines
+User-agent: OAI-SearchBot
+User-agent: ChatGPT-User
+User-agent: PerplexityBot
+User-agent: ClaudeBot
+User-agent: Claude-Web
+User-agent: Google-Extended
+User-agent: Applebot-Extended
+Allow: /
+
+Sitemap: https://ai.doezly.com/sitemap-index.xml
