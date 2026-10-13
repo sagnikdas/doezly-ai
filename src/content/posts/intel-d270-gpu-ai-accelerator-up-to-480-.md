@@ -4,7 +4,7 @@ description: Intel's D270 AI accelerator GPU reportedly scales to 480 GB LPDDR5X
   unified memory, targeting large-model inference workloads with higher capacity
   than current H100/MI300X configs at lower cost-per-GB.
 pubDatetime: 2026-10-13T18:26:20.436Z
-draft: true
+draft: false
 featured: true
 tags:
   - workflows-and-agents
