@@ -1,12 +1,15 @@
 ---
 title: "Janas: Stream MoE Experts From SSD to Run LLMs Bigger Than Your RAM"
-description: "Janas lets you run Mixture-of-Experts LLMs that exceed system RAM by streaming only the active experts from SSD on demand, trading some latency for the ability to run 100B+ parameter models on consumer hardware with as little as 16-32GB RAM."
+description: Janas lets you run Mixture-of-Experts LLMs that exceed system RAM
+  by streaming only the active experts from SSD on demand, trading some latency
+  for the ability to run 100B+ parameter models on consumer hardware with as
+  little as 16-32GB RAM.
 pubDatetime: 2026-10-13T19:09:25.824Z
-draft: true
+draft: false
+featured: true
 tags:
   - workflows-and-agents
 ---
-
 Janas enables inference on Mixture-of-Experts (MoE) language models that are larger than available system RAM by streaming only the experts needed for each token from SSD, rather than requiring the entire model to be memory-resident.
 
 ## The Core Problem It Solves
@@ -39,12 +42,14 @@ janas serve \
 
 ## Performance Trade-offs
 
+
 | Setup | RAM Required | Tokens/sec | Notes |
-|---|---|---|---|
+| -------------------------------------- | ---------------- | ---------- | ------------------------------------------ |
 | Full in-RAM (traditional) | ~280GB | 35–50 | Needs server-grade hardware |
 | Janas, cold cache | 32GB | 2–4 | First-token latency penalty per new expert |
 | Janas, warm cache (repetitive prompts) | 32GB | 8–12 | Benefits from expert locality |
 | Janas, NVMe Gen4 + GPU offload hybrid | 32GB + 12GB VRAM | 12–18 | Best observed configuration |
+
 
 The core trade-off: SSD streaming introduces I/O latency that CPU/GPU-bound inference doesn't have, so throughput depends heavily on NVMe read speed, expert cache hit rate, and prompt locality (how often the same experts get reused across tokens).
 
