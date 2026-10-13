@@ -8,7 +8,7 @@ export async function GET() {
     .sort((a, b) => b.data.pubDatetime.getTime() - a.data.pubDatetime.getTime())
     .map(
       post =>
-        `- [${post.data.title}](https://ai.doezly.com/posts/${post.slug}): ${post.data.description}`
+        `- [${post.data.title}](https://ai.doezly.com/posts/${post.id}): ${post.data.description}`
     )
     .join("\n");
 
