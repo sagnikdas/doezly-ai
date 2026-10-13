@@ -1,12 +1,15 @@
 ---
 title: "AI Is a Tool: Why Skilled Usage Separates Results From Noise"
-description: "Bottom line: AI output quality is a direct function of operator skill—prompt structure, context management, and verification habits matter more than the underlying model. Teams that treat AI as a skill to develop outperform those treating it as a magic black box."
+description: "Bottom line: AI output quality is a direct function of operator
+  skill—prompt structure, context management, and verification habits matter
+  more than the underlying model. Teams that treat AI as a skill to develop
+  outperform those treating it as a magic black box."
 pubDatetime: 2026-10-13T18:26:04.200Z
-draft: true
+draft: false
+featured: false
 tags:
   - workflows-and-agents
 ---
-
 AI output quality is a direct function of operator skill, not just model capability—the same model can produce garbage or gold depending on how it's used.
 
 ## The Core Problem
@@ -17,8 +20,9 @@ This gap isn't about access to better AI—it's about workflow discipline.
 
 ## What Separates Skilled Usage From Novice Usage
 
+
 | Dimension | Novice Approach | Skilled Approach |
-|---|---|---|
+| -------------- | --------------------------------- | --------------------------------------------------------- |
 | Prompting | Single-shot, vague requests | Iterative, structured prompts with explicit constraints |
 | Context | Assumes AI "remembers" or "knows" | Actively manages context window, re-supplies key facts |
 | Verification | Trusts output at face value | Cross-checks claims, runs tests, spot-checks sources |
@@ -26,6 +30,7 @@ This gap isn't about access to better AI—it's about workflow discipline.
 | Error handling | Abandons task on bad output | Diagnoses failure mode, adjusts prompt or approach |
 | Tool selection | Uses one model for everything | Matches model/mode to task (reasoning vs. speed vs. cost) |
 | Output review | Copy-pastes directly | Treats output as a first draft requiring editing |
+
 
 ## A Concrete Example: Prompt Structure
 
