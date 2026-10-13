@@ -2,14 +2,14 @@ import { defineAstroPaperConfig } from "./src/types/config";
 
 export default defineAstroPaperConfig({
   site: {
-    url: "https://astro-paper.pages.dev/",
-    title: "AstroPaper",
-    description: "A minimal, responsive and SEO-friendly Astro blog theme.",
-    author: "Sat Naing",
-    profile: "https://satna.ing",
+    url: "https://ai.doezly.com/",
+    title: "Doezly AI",
+    description: "Curated AI workflows, GEO processes, prompt tricks, and model release benchmarks.",
+    author: "Sagnik Das",
+    profile: "https://doezly.com",
     ogImage: "default-og.jpg",
     lang: "en",
-    timezone: "Asia/Bangkok",
+    timezone: "Asia/Calcutta",
     dir: "ltr",
   },
   posts: {
