@@ -1,0 +1,39 @@
+media:
+  input: public/assets
+  output: /assets
+
+content:
+  - name: posts
+    label: AI Blog Posts
+    type: collection
+    path: src/content/posts
+    view:
+      fields: [title, draft, pubDatetime]
+    fields:
+      - name: title
+        label: Title
+        type: string
+        required: true
+      - name: description
+        label: BLUF Summary (For AI Search & GEO)
+        type: text
+        required: true
+      - name: pubDatetime
+        label: Publish Date
+        type: datetime
+        required: true
+      - name: draft
+        label: Draft Mode (Keep checked until reviewed)
+        type: boolean
+        default: true
+      - name: featured
+        label: Featured Post
+        type: boolean
+        default: false
+      - name: tags
+        label: Tags (e.g. tricks-and-prompts, workflows-and-agents, what-changed)
+        type: string
+        list: true
+      - name: body
+        label: Markdown Content
+        type: rich-text
