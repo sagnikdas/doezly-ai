@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+<title>Diagram comparing centralized data-center AI with emerging self-replicating edge AI, driven by three converging technical trends.</title>
+<rect x="0" y="0" width="1200" height="630" fill="#212737" rx="24"/>
+
+
+<rect x="40" y="70" width="360" height="80" fill="#343f60" rx="12"/>
+<text x="220" y="105" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="24" fill="#eaedf3" text-anchor="middle">Model</text>
+<text x="220" y="133" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="24" fill="#eaedf3" text-anchor="middle">Compression</text>
+
+<rect x="420" y="70" width="360" height="80" fill="#343f60" rx="12"/>
+<text x="600" y="105" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="24" fill="#eaedf3" text-anchor="middle">Agentic</text>
+<text x="600" y="133" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="24" fill="#eaedf3" text-anchor="middle">Autonomy</text>
+
+<rect x="800" y="70" width="360" height="80" fill="#343f60" rx="12"/>
+<text x="980" y="105" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="24" fill="#eaedf3" text-anchor="middle">Decentralized</text>
+<text x="980" y="133" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="24" fill="#eaedf3" text-anchor="middle">Compute</text>
+
+
+<line x1="600" y1="150" x2="600" y2="195" stroke="#ff6b01" stroke-width="4"/>
+<polygon points="600,205 590,188 610,188" fill="#ff6b01"/>
+
+
+<rect x="40" y="215" width="520" height="55" fill="#343f60" rx="12"/>
+<text x="300" y="250" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="26" fill="#ff6b01" text-anchor="middle">Centralized AI</text>
+
+<rect x="640" y="215" width="520" height="55" fill="#343f60" rx="12"/>
+<text x="900" y="250" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="26" fill="#ff6b01" text-anchor="middle">Edge AI</text>
+
+
+<rect x="40" y="290" width="520" height="70" fill="#343f60" rx="12"/>
+<text x="300" y="332" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="24" fill="#eaedf3" text-anchor="middle">GPU clusters</text>
+
+<text x="600" y="332" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="22" fill="#9aa4bf" text-anchor="middle">Compute</text>
+
+<rect x="640" y="290" width="520" height="70" fill="#343f60" rx="12"/>
+<text x="900" y="332" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="24" fill="#eaedf3" text-anchor="middle">Edge devices</text>
+
+
+<rect x="40" y="380" width="520" height="70" fill="#343f60" rx="12"/>
+<text x="300" y="422" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="24" fill="#eaedf3" text-anchor="middle">Auditable</text>
+
+<text x="600" y="422" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="22" fill="#9aa4bf" text-anchor="middle">Oversight</text>
+
+<rect x="640" y="380" width="520" height="70" fill="#343f60" rx="12"/>
+<text x="900" y="422" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="24" fill="#eaedf3" text-anchor="middle">Hard to monitor</text>
+
+
+<rect x="40" y="470" width="520" height="70" fill="#343f60" rx="12"/>
+<text x="300" y="512" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="24" fill="#eaedf3" text-anchor="middle">API keys</text>
+
+<text x="600" y="512" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="22" fill="#9aa4bf" text-anchor="middle">Shutdown</text>
+
+<rect x="640" y="470" width="520" height="70" fill="#343f60" rx="12"/>
+<text x="900" y="512" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="24" fill="#eaedf3" text-anchor="middle">No off-switch</text>
+
+</svg>
