@@ -1,12 +1,14 @@
 ---
 title: "Intel D270 GPU AI Accelerator: Up to 480 GB LPDDR5X Memory Explained"
-description: "Intel's D270 AI accelerator GPU reportedly scales to 480 GB LPDDR5X unified memory, targeting large-model inference workloads with higher capacity than current H100/MI300X configs at lower cost-per-GB."
+description: Intel's D270 AI accelerator GPU reportedly scales to 480 GB LPDDR5X
+  unified memory, targeting large-model inference workloads with higher capacity
+  than current H100/MI300X configs at lower cost-per-GB.
 pubDatetime: 2026-10-13T18:26:20.436Z
 draft: true
+featured: true
 tags:
   - workflows-and-agents
 ---
-
 Intel's upcoming D270 GPU AI accelerator is being positioned around a single headline spec: up to 480 GB of LPDDR5X memory per card, a capacity jump aimed squarely at large language model (LLM) inference and memory-bound AI workloads rather than raw FLOPS leadership.
 
 ## Why This Matters
@@ -22,12 +24,14 @@ Most AI accelerators today are compute-first, memory-second — HBM is fast but 
 
 ## Comparison: D270 vs. Current-Gen Accelerators
 
+
 | Accelerator | Memory Type | Max Memory | Primary Target | Relative Cost-per-GB |
-|---|---|---|---|---|
+| -------------- | ----------- | ---------- | -------------------- | -------------------- |
 | **Intel D270** | LPDDR5X | 480 GB | Inference / serving | Low |
 | NVIDIA H100 | HBM3 | 80 GB | Training + inference | High |
 | NVIDIA H200 | HBM3e | 141 GB | Training + inference | High |
 | AMD MI300X | HBM3 | 192 GB | Training + inference | Medium-High |
+
 
 The takeaway: D270 trades some bandwidth and compute density for roughly **2.5–6x more on-card memory** than leading HBM-based accelerators, letting a single card hold larger models (or more concurrent model instances) without sharding across multiple GPUs.
 
