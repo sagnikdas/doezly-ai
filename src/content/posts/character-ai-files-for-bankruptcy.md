@@ -1,12 +1,15 @@
 ---
 title: "Character.AI Bankruptcy Reports: What's Confirmed vs. Unverified"
-description: "As of this writing, no bankruptcy filing for Character.AI appears in PACER or SEC/state court dockets; claims are circulating but unconfirmed. Here's how to verify the status yourself and what a Chapter 7/11 filing would mean for users, API customers, and the broader AI-companion market."
+description: As of this writing, no bankruptcy filing for Character.AI appears
+  in PACER or SEC/state court dockets; claims are circulating but unconfirmed.
+  Here's how to verify the status yourself and what a Chapter 7/11 filing would
+  mean for users, API customers, and the broader AI-companion market.
 pubDatetime: 2026-10-13T19:10:09.014Z
-draft: true
+draft: false
+featured: true
 tags:
   - workflows-and-agents
 ---
-
 **Bottom line:** No verified court record currently confirms Character.AI has filed for bankruptcy — treat this as an unconfirmed/developing claim until a case number appears in PACER or an official company statement is issued.
 
 ## Why This Matters
@@ -43,12 +46,14 @@ If no case number or official filing shows up in these sources, the claim is unv
 
 ## Chapter 7 vs. Chapter 11: What Each Would Mean
 
+
 | Scenario | What Happens | User Impact | Likelihood Signal |
-|---|---|---|---|
+| ------------------------------- | ---------------------------------------------------------------------- | --------------------------------------------------------------------- | -------------------------------------------------------- |
 | **Chapter 11 (Reorganization)** | Company continues operating under court supervision, restructures debt | Service likely stays online; possible pricing/feature changes | Most common path for VC-backed AI startups with IP value |
 | **Chapter 7 (Liquidation)** | Assets sold off, company ceases operations | Service shutdown; data deletion or acquisition by third party | Rare unless no buyer exists for model/IP assets |
 | **Acquisition pre-filing** | Distressed sale to acqui-hire or strategic buyer | Brand/product may be absorbed (similar to past AI startup wind-downs) | Common outcome given Character.AI's user base value |
 | **No filing (rumor)** | Business continues as normal | No action needed | Default assumption until court record confirms |
+
 
 ## Action Items for Users and Developers
 
