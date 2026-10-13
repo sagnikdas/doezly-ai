@@ -1,12 +1,15 @@
 ---
-title: "I Posted to HN, Then AI Bots Flooded My Site: What Happened and How to Stop It"
-description: "A Hacker News front-page post triggered a traffic spike dominated by AI crawlers (GPTBot, ClaudeBot, Bytespider), not human readers—here's the breakdown and the robots.txt/rate-limit fixes that cut bot load by over 80%."
+title: "I Posted to HN, Then AI Bots Flooded My Site: What Happened and How to
+  Stop It"
+description: A Hacker News front-page post triggered a traffic spike dominated
+  by AI crawlers (GPTBot, ClaudeBot, Bytespider), not human readers—here's the
+  breakdown and the robots.txt/rate-limit fixes that cut bot load by over 80%.
 pubDatetime: 2026-10-13T19:29:07.198Z
-draft: true
+draft: false
+featured: true
 tags:
   - workflows-and-agents
 ---
-
 Within 20 minutes of hitting the Hacker News front page, over 60% of a site's traffic came from AI scraper bots—not human visitors—and the server nearly fell over because of it.
 
 ## What Actually Happened
@@ -15,13 +18,15 @@ A developer posted a side project to Hacker News and watched traffic spike to 15
 
 ## Traffic Breakdown (First Hour)
 
+
 | Source | Requests | % of Total | Behavior |
-|---|---|---|---|
+| ----------------------------- | -------- | ---------- | ------------------------------------------ |
 | GPTBot (OpenAI) | 4,200 | 28% | Crawled every internal link within minutes |
 | ClaudeBot (Anthropic) | 2,900 | 19% | Repeated requests to same pages every 30s |
 | Bytespider (TikTok/ByteDance) | 2,100 | 14% | Ignored crawl-delay directives |
 | Human visitors (HN referral) | 4,800 | 32% | Normal browsing pattern |
 | Other bots/scrapers | 1,000 | 7% | Mixed, low-value hits |
+
 
 Roughly two-thirds of non-human traffic came from just three AI crawlers, and none of them respected standard `Crawl-delay` settings.
 
@@ -72,3 +77,4 @@ A Cloudflare WAF rule targeting known AI bot user-agent strings was added as a b
 - **robots.txt alone isn't enough**—some bots ignore it, so pair it with server-level rate limiting or a WAF rule.
 - **GPTBot, ClaudeBot, and Bytespider** were the top three offenders in this case, consistent with reports from other developers hitting HN's front page in 2024–2025.
 - **Monitor user-agent strings in real time** during traffic spikes; a sudden non-human majority is now a common side effect of going viral.
+
