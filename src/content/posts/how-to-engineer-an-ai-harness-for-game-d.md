@@ -1,8 +1,13 @@
 ---
-title: "How to Engineer an AI Harness for Game Development"
-description: "An AI harness for game development is a sandboxed control layer that lets an LLM agent perceive game state, issue actions through a constrained API, and receive deterministic feedback—cutting manual QA cycles by up to 70% when built with reset hooks, action whitelists, and reward-free evaluation logs."
+title: How to Engineer an AI Harness for Game Development
+description: An AI harness for game development is a sandboxed control layer
+  that lets an LLM agent perceive game state, issue actions through a
+  constrained API, and receive deterministic feedback—cutting manual QA cycles
+  by up to 70% when built with reset hooks, action whitelists, and reward-free
+  evaluation logs.
 pubDatetime: 2026-10-13T19:47:52.182Z
-draft: true
+draft: false
+featured: true
 tags:
   - workflows-and-agents
 ---
@@ -51,12 +56,14 @@ This minimal pattern enforces three non-negotiables: a hard step ceiling, an act
 
 ## Choosing Your Interface Layer
 
+
 | Approach | Latency | Determinism | Best For |
-|---|---|---|---|
+| ------------------------------------------------------------ | ------- | ----------- | -------------------------------------------- |
 | Direct engine API hooks (Unity ML-Agents, Godot GDExtension) | Low | High | Production playtest bots, RL training |
 | Screen-pixel + vision model input | High | Low–Medium | Prototyping, no-engine-access testing |
 | Memory-mapped state export (custom JSON bridge) | Medium | High | Turn-based or grid games, balance simulation |
 | Full engine fork with instrumented hooks | Low | Very High | Long-running agent training pipelines |
+
 
 For most studios, a memory-mapped JSON bridge offers the best cost-to-reliability ratio—no engine fork required, and state is fully inspectable.
 
