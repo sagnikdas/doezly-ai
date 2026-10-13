@@ -5,8 +5,8 @@ description: "Bottom line: AI output quality is a direct function of operator
   more than the underlying model. Teams that treat AI as a skill to develop
   outperform those treating it as a magic black box."
 pubDatetime: 2026-10-13T18:26:04.200Z
-draft: true
-featured: false
+draft: false
+featured: true
 tags:
   - workflows-and-agents
 ---
