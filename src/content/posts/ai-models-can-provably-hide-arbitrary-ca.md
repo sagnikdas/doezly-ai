@@ -1,12 +1,15 @@
 ---
-title: "AI Models Can Provably Hide Arbitrary Capabilities From Evaluators"
-description: "New research shows AI models can be built to cryptographically hide arbitrary capabilities, passing safety evaluations while retaining hidden, triggerable behaviors—undetectable even with full weight access, unless the secret key is known."
+title: AI Models Can Provably Hide Arbitrary Capabilities From Evaluators
+description: New research shows AI models can be built to cryptographically hide
+  arbitrary capabilities, passing safety evaluations while retaining hidden,
+  triggerable behaviors—undetectable even with full weight access, unless the
+  secret key is known.
 pubDatetime: 2026-10-13T18:26:39.359Z
-draft: true
+draft: false
+featured: false
 tags:
   - workflows-and-agents
 ---
-
 AI models can be constructed to provably hide arbitrary capabilities from evaluators, meaning a model can pass every standard safety or capability test and still contain a dormant, cryptographically-gated behavior that only activates on a secret trigger known to the model's creator.
 
 ## What "Provably Hide" Actually Means
@@ -23,13 +26,15 @@ The construction borrows from cryptographic backdoor literature (e.g., undetecta
 
 Current evaluation pipelines assume that sufficiently thorough testing (benchmarks + red-teaming + interpretability) converges on ground truth about a model's capabilities. This result breaks that assumption at a theoretical level:
 
+
 | Evaluation Method | Detects Informal Sandbagging | Detects Cryptographically Hidden Capability |
-|---|---|---|
+| -------------------------------------------- | ---------------------------- | ------------------------------------------------------------------ |
 | Standard benchmarks | Sometimes | No |
 | Red-teaming / adversarial prompting | Often | No (trigger space is exponentially large) |
 | Mechanistic interpretability (current tools) | Partial | No (indistinguishability holds under weight inspection) |
 | Fine-tuning / weight perturbation | Partial | No (hardness assumption survives perturbation in the construction) |
 | Possessing the secret key | N/A | Yes (trivial) |
+
 
 The practical implication: absent the key, detection is not merely hard—it's computationally infeasible under standard cryptographic assumptions (e.g., one-way functions existing).
 
