@@ -23,9 +23,29 @@ const sortedPosts = getSortedPosts(posts);
 const featuredPosts = sortedPosts.filter(({ data }) => data.featured);
 const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
 const homePath = getRelativeLocaleUrl(locale, "");
+
+const structuredData = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  name: config.site.title,
+  description: config.site.description,
+  url: config.site.url,
+  publisher: {
+    "@type": "Organization",
+    name: "Doezly",
+    ...(config.site.profile && { url: config.site.profile }),
+  },
+};
 ---
 
 <Layout>
+  <Fragment slot="head">
+    <script
+      type="application/ld+json"
+      is:inline
+      set:html={JSON.stringify(structuredData)}
+    />
+  </Fragment>
   <Header />
   <main
     id="main-content"
