@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+<title>A table comparing five AI data-handling risk mechanisms, their severity levels, and mitigations for protecting unpublished research ideas.</title>
+<rect x="0" y="0" width="1200" height="630" rx="24" fill="#212737"/>
+
+<text x="100" y="95" font-size="24" font-family="ui-monospace, Menlo, Consolas, monospace" fill="#ff6b01">Mechanism</text>
+<text x="585" y="95" font-size="24" font-family="ui-monospace, Menlo, Consolas, monospace" fill="#ff6b01">Risk</text>
+<text x="760" y="95" font-size="24" font-family="ui-monospace, Menlo, Consolas, monospace" fill="#ff6b01">Mitigation</text>
+
+
+<rect x="70" y="140" width="1060" height="60" rx="12" fill="#343f60"/>
+<text x="100" y="178" font-size="24" font-family="ui-monospace, Menlo, Consolas, monospace" fill="#eaedf3">Prompt logging</text>
+<circle cx="560" cy="170" r="12" fill="#ff6b01" fill-opacity="0.6"/>
+<text x="585" y="178" font-size="22" font-family="ui-monospace, Menlo, Consolas, monospace" fill="#eaedf3">Medium</text>
+<text x="760" y="178" font-size="22" font-family="ui-monospace, Menlo, Consolas, monospace" fill="#9aa4bf">Zero-retention API tier</text>
+
+
+<rect x="70" y="220" width="1060" height="60" rx="12" fill="#343f60"/>
+<text x="100" y="258" font-size="24" font-family="ui-monospace, Menlo, Consolas, monospace" fill="#eaedf3">Training on inputs</text>
+<circle cx="560" cy="250" r="12" fill="#ff6b01" fill-opacity="1"/>
+<text x="585" y="258" font-size="22" font-family="ui-monospace, Menlo, Consolas, monospace" fill="#eaedf3">High</text>
+<text x="760" y="258" font-size="22" font-family="ui-monospace, Menlo, Consolas, monospace" fill="#9aa4bf">Opt out, self-host</text>
+
+
+<rect x="70" y="300" width="1060" height="60" rx="12" fill="#343f60"/>
+<text x="100" y="338" font-size="24" font-family="ui-monospace, Menlo, Consolas, monospace" fill="#eaedf3">Output similarity</text>
+<circle cx="560" cy="330" r="12" fill="#ff6b01" fill-opacity="0.35"/>
+<text x="585" y="338" font-size="22" font-family="ui-monospace, Menlo, Consolas, monospace" fill="#eaedf3">Low-Med</text>
+<text x="760" y="338" font-size="22" font-family="ui-monospace, Menlo, Consolas, monospace" fill="#9aa4bf">Log idea provenance</text>
+
+
+<rect x="70" y="380" width="1060" height="60" rx="12" fill="#343f60"/>
+<text x="100" y="418" font-size="24" font-family="ui-monospace, Menlo, Consolas, monospace" fill="#eaedf3">Third-party sharing</text>
+<circle cx="560" cy="410" r="12" fill="#ff6b01" fill-opacity="0.6"/>
+<text x="585" y="418" font-size="22" font-family="ui-monospace, Menlo, Consolas, monospace" fill="#eaedf3">Medium</text>
+<text x="760" y="418" font-size="22" font-family="ui-monospace, Menlo, Consolas, monospace" fill="#9aa4bf">Read data agreements</text>
+
+
+<rect x="70" y="460" width="1060" height="60" rx="12" fill="#343f60"/>
+<text x="100" y="498" font-size="24" font-family="ui-monospace, Menlo, Consolas, monospace" fill="#eaedf3">Model memorization</text>
+<circle cx="560" cy="490" r="12" fill="#9aa4bf" fill-opacity="1"/>
+<text x="585" y="498" font-size="22" font-family="ui-monospace, Menlo, Consolas, monospace" fill="#eaedf3">Low</text>
+<text x="760" y="498" font-size="22" font-family="ui-monospace, Menlo, Consolas, monospace" fill="#9aa4bf">Avoid exact text</text>
+
+</svg>
