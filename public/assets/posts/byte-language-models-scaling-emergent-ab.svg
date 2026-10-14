@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+<title>Bar chart comparing byte-level Transformers to subword Transformers on CUTE score, OCRBench, and speculative decoding accepted tokens.</title>
+<rect width="1200" height="630" rx="24" fill="#212737"/>
+
+<text x="60" y="70" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="28" fill="#eaedf3">Byte vs Subword Transformers</text>
+
+<rect x="700" y="50" width="24" height="24" fill="#343f60"/>
+<text x="732" y="68" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="22" fill="#9aa4bf">Subword</text>
+<rect x="850" y="50" width="24" height="24" fill="#ff6b01"/>
+<text x="882" y="68" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="22" fill="#eaedf3">Byte</text>
+
+
+<text x="60" y="178" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="24" fill="#eaedf3">CUTE</text>
+<rect x="300" y="150" width="150" height="26" fill="#343f60"/>
+<text x="460" y="168" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="22" fill="#9aa4bf">100%</text>
+<rect x="300" y="182" width="210" height="26" fill="#ff6b01"/>
+<text x="520" y="200" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="22" fill="#eaedf3">+40%</text>
+
+
+<text x="60" y="288" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="24" fill="#eaedf3">OCRBench</text>
+<rect x="300" y="260" width="150" height="26" fill="#343f60"/>
+<text x="460" y="278" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="22" fill="#9aa4bf">100%</text>
+<rect x="300" y="292" width="180" height="26" fill="#ff6b01"/>
+<text x="490" y="310" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="22" fill="#eaedf3">+20%</text>
+
+
+<text x="60" y="385" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="24" fill="#eaedf3">Speculative</text>
+<text x="60" y="412" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="24" fill="#eaedf3">Decoding</text>
+<rect x="300" y="370" width="150" height="26" fill="#343f60"/>
+<text x="460" y="388" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="22" fill="#9aa4bf">1x</text>
+<rect x="300" y="402" width="510" height="26" fill="#ff6b01"/>
+<text x="820" y="420" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="22" fill="#eaedf3">3.4x accepted tokens</text>
+
+
+<rect x="60" y="480" width="1080" height="90" rx="12" fill="#343f60"/>
+<text x="90" y="515" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="22" fill="#eaedf3">At fixed compute, byte models need 1.5-3x more data per parameter than subword models—</text>
+<text x="90" y="545" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="22" fill="#eaedf3">and keep improving as training data scales.</text>
+</svg>
