@@ -1,8 +1,12 @@
 ---
-title: "Is Your AI Stealing Your Ideas? What Scientists Are Really Worried About"
-description: "Researchers increasingly suspect AI chatbots and research tools retain and leak unpublished ideas; the real risks are prompt logging, model training on inputs, and output similarity—not sci-fi theft. Use local models, opt-out settings, and provenance logging to mitigate exposure."
+title: Is Your AI Stealing Your Ideas? What Scientists Are Really Worried About
+description: Researchers increasingly suspect AI chatbots and research tools
+  retain and leak unpublished ideas; the real risks are prompt logging, model
+  training on inputs, and output similarity—not sci-fi theft. Use local models,
+  opt-out settings, and provenance logging to mitigate exposure.
 pubDatetime: 2026-10-14T01:20:51.266Z
-draft: true
+draft: false
+featured: false
 tags:
   - workflows-and-agents
 ---
@@ -16,13 +20,15 @@ Researchers routinely paste hypotheses, draft methods, and unpublished data into
 
 ## Breaking Down "Idea Theft" Into Real Mechanisms
 
+
 | Mechanism | What Actually Happens | Risk Level | Mitigation |
-|---|---|---|---|
+| ---------------------------- | --------------------------------------------------------------------------------------- | ----------------------------------------- | --------------------------------------------------- |
 | **Prompt logging** | Vendor stores your input/output pairs on servers | Medium | Use enterprise/API tier with zero-retention clauses |
 | **Training on inputs** | Your prompts become training data for future model versions | High (if consumer tier) | Opt out via settings, or use self-hosted models |
 | **Output similarity** | Model generates similar ideas for other users via pretraining, not your specific prompt | Low–Medium | Document idea provenance (timestamps, drafts) |
 | **Third-party data sharing** | Inputs shared with partners/integrations | Medium | Read DPAs; avoid tools without clear data flow docs |
 | **Model memorization** | Rare verbatim leakage of training data in outputs | Low (mostly mitigated in frontier models) | Avoid pasting exact unpublished text; paraphrase |
+
 
 The table above separates the *plausible* risks (logging, training consent) from the *unlikely but feared* ones (direct idea leakage to competitors), which is the actual technical distinction scientists need to make decisions around.
 
