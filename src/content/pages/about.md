@@ -21,7 +21,7 @@ AI should serve people first.
 
 ## About this blog
 
-Doezly AI is our working notebook. It collects AI workflows, GEO processes, prompt tricks, and model release benchmarks that we find useful while building.
+Doezly AI is our daily AI brief. Every morning we pick the AI stories developers are talking about most, from new models and tools to research and industry moves, and explain what changed and why it matters, with the facts up front.
 
 ## Get in touch
 

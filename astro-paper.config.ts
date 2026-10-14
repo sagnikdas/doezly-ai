@@ -4,7 +4,7 @@ export default defineAstroPaperConfig({
   site: {
     url: "https://ai.doezly.com/",
     title: "Doezly AI",
-    description: "Curated AI workflows, GEO processes, prompt tricks, and model release benchmarks.",
+    description: "A daily brief on the AI stories developers are talking about, explained with the facts up front.",
     author: "Sagnik Das",
     profile: "https://doezly.com",
     ogImage: "default-og.jpg",
