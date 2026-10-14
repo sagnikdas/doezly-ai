@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+<title>Side-by-side comparison of Pulse Local's on-device AI budgeting app versus typical cloud-based budgeting apps across data handling, account needs, telemetry, AI processing, and offline use.</title>
+<rect x="0" y="0" width="1200" height="630" fill="#212737" rx="24"/>
+
+<text x="600" y="80" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="28" fill="#eaedf3" text-anchor="middle">Pulse Local vs Cloud Budgeting Apps</text>
+
+<rect x="50" y="120" width="360" height="420" fill="#343f60" rx="16"/>
+<rect x="790" y="120" width="360" height="420" fill="#343f60" rx="16"/>
+
+<text x="230" y="155" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="26" fill="#ff6b01" text-anchor="middle">Pulse Local</text>
+<text x="970" y="155" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="26" fill="#9aa4bf" text-anchor="middle">Cloud Apps</text>
+
+
+<text x="230" y="195" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="22" fill="#eaedf3" text-anchor="middle">On-device</text>
+<text x="600" y="195" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="22" fill="#9aa4bf" text-anchor="middle">Data</text>
+<text x="970" y="195" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="22" fill="#eaedf3" text-anchor="middle">Cloud servers</text>
+
+
+<text x="230" y="255" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="22" fill="#eaedf3" text-anchor="middle">Not required</text>
+<text x="600" y="255" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="22" fill="#9aa4bf" text-anchor="middle">Account</text>
+<text x="970" y="255" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="22" fill="#eaedf3" text-anchor="middle">Required</text>
+
+
+<text x="230" y="315" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="22" fill="#eaedf3" text-anchor="middle">None</text>
+<text x="600" y="315" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="22" fill="#9aa4bf" text-anchor="middle">Telemetry</text>
+<text x="970" y="315" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="22" fill="#eaedf3" text-anchor="middle">Extensive</text>
+
+
+<text x="230" y="375" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="22" fill="#eaedf3" text-anchor="middle">Local model</text>
+<text x="600" y="375" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="22" fill="#9aa4bf" text-anchor="middle">AI engine</text>
+<text x="970" y="375" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="22" fill="#eaedf3" text-anchor="middle">Cloud API</text>
+
+
+<text x="230" y="435" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="22" fill="#eaedf3" text-anchor="middle">Full</text>
+<text x="600" y="435" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="22" fill="#9aa4bf" text-anchor="middle">Offline</text>
+<text x="970" y="435" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="22" fill="#eaedf3" text-anchor="middle">Limited</text>
+
+<text x="600" y="585" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="22" fill="#9aa4bf" text-anchor="middle">Free • M1+ • Beta</text>
+</svg>
