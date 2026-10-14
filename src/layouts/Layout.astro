@@ -119,7 +119,10 @@ const rssHref = getRelativeLocaleUrl(
   <body
     class="bg-background font-app text-foreground selection:bg-accent/75 selection:text-accent-foreground flex min-h-svh flex-col"
   >
+    <!-- Cloudflare's email obfuscation breaks mailto links after ClientRouter navigation. -->
+    <Fragment set:html="<!--email_off-->" />
     <slot />
+    <Fragment set:html="<!--/email_off-->" />
     <script>
       import "@/scripts/theme";
     </script>
