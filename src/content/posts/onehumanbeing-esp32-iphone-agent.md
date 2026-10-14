@@ -1,8 +1,12 @@
 ---
-title: "ESP32 iPhone Agent Lets AI Models Control a Real iPhone for $7"
-description: "An open-source project called esp32-iphone-agent uses a $7 ESP32-S3 board and AirPlay mirroring to let any OpenAI-compatible vision model operate a real iPhone — no Mac, no developer account, no jailbreak required. It has 1,862 GitHub stars."
+title: ESP32 iPhone Agent Lets AI Models Control a Real iPhone for $7
+description: An open-source project called esp32-iphone-agent uses a $7 ESP32-S3
+  board and AirPlay mirroring to let any OpenAI-compatible vision model operate
+  a real iPhone — no Mac, no developer account, no jailbreak required. It has
+  1,862 GitHub stars.
 pubDatetime: 2026-10-14T10:06:00.687Z
-draft: true
+draft: false
+featured: true
 tags:
   - workflows-and-agents
 ---
@@ -22,8 +26,9 @@ The system is built from three parts: eyes, hands, and a brain. The phone mirror
 
 Most existing iPhone automation tools rely on XCTest/WebDriverAgent, which require a Mac, Xcode, a signed helper app, and an Apple developer account — and a free account's signature expires every 7 days. ESP32 iPhone Agent avoids all of that by using the same screen-and-pointer interface a human uses, so nothing needs to be installed on the phone. The README's comparison table lays out the difference clearly:
 
-| | ESP32 iPhone Agent | XCTest / WebDriverAgent tools |
-|---|---|---|
+
+|  | ESP32 iPhone Agent | XCTest / WebDriverAgent tools |
+| ----------------------------- | ---------------------- | -------------------------------------- |
 | Apple developer account | Not needed | Needed (to sign the runner) |
 | Xcode | Not needed | Needed |
 | Computer | Mac or Linux | Mac |
@@ -31,6 +36,7 @@ Most existing iPhone automation tools rely on XCTest/WebDriverAgent, which requi
 | Jailbreak | Not needed | Not needed |
 | Extra hardware | ESP32-S3 board (~$7) | USB cable |
 | Works in any app, incl. games | Yes (only sees pixels) | Mostly (depends on accessibility tree) |
+
 
 ## How does the agent stay accurate and recover from mistakes?
 
@@ -43,3 +49,4 @@ The core hardware is a Seeed Studio XIAO ESP32S3 board (plain version, not the S
 ## Sources
 
 - [onehumanbeing/esp32-iphone-agent on GitHub](https://github.com/onehumanbeing/esp32-iphone-agent)
+
