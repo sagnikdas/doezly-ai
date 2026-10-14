@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" font-family="ui-monospace, Menlo, Consolas, monospace">
+<title>Timeline showing Kafka's exactly-once guarantee evolving from 2016 to 2022, illustrating that consistency requires end-to-end ownership rather than single-component guarantees.</title>
+
+<rect x="0" y="0" width="1200" height="630" rx="24" fill="#212737"/>
+
+
+<line x1="210" y1="200" x2="990" y2="200" stroke="#9aa4bf" stroke-width="3"/>
+
+
+<circle cx="210" cy="200" r="14" fill="#ff6b01"/>
+<circle cx="600" cy="200" r="14" fill="#ff6b01"/>
+<circle cx="990" cy="200" r="14" fill="#ff6b01"/>
+
+
+<line x1="210" y1="214" x2="210" y2="260" stroke="#9aa4bf" stroke-width="2"/>
+<line x1="600" y1="214" x2="600" y2="260" stroke="#9aa4bf" stroke-width="2"/>
+<line x1="990" y1="214" x2="990" y2="260" stroke="#9aa4bf" stroke-width="2"/>
+
+
+<text x="210" y="170" font-size="26" fill="#ff6b01" text-anchor="middle">2016</text>
+<text x="600" y="170" font-size="26" fill="#ff6b01" text-anchor="middle">2017</text>
+<text x="990" y="170" font-size="26" fill="#ff6b01" text-anchor="middle">2022</text>
+
+
+<rect x="60" y="260" width="300" height="170" rx="12" fill="#343f60"/>
+<rect x="450" y="260" width="300" height="170" rx="12" fill="#343f60"/>
+<rect x="840" y="260" width="300" height="170" rx="12" fill="#343f60"/>
+
+
+<text x="210" y="292" font-size="24" fill="#eaedf3" text-anchor="middle">KIP-98 (2016)</text>
+<text x="210" y="320" font-size="22" fill="#eaedf3" text-anchor="middle">Exactly-once intro</text>
+<text x="210" y="352" font-size="22" fill="#9aa4bf" text-anchor="middle">Years of work,</text>
+<text x="210" y="380" font-size="22" fill="#9aa4bf" text-anchor="middle">new components,</text>
+<text x="210" y="408" font-size="22" fill="#9aa4bf" text-anchor="middle">full rewrite</text>
+
+
+<text x="600" y="310" font-size="24" fill="#eaedf3" text-anchor="middle">Confluent post</text>
+<text x="600" y="342" font-size="22" fill="#9aa4bf" text-anchor="middle">explains exactly-once</text>
+<text x="600" y="374" font-size="22" fill="#9aa4bf" text-anchor="middle">semantics</text>
+
+
+<text x="990" y="292" font-size="24" fill="#eaedf3" text-anchor="middle">KIP-890 (2022)</text>
+<text x="990" y="320" font-size="22" fill="#eaedf3" text-anchor="middle">8 years later:</text>
+<text x="990" y="352" font-size="22" fill="#9aa4bf" text-anchor="middle">redesign closes</text>
+<text x="990" y="380" font-size="22" fill="#9aa4bf" text-anchor="middle">correctness holes</text>
+
+
+<rect x="60" y="470" width="1080" height="120" rx="16" fill="#343f60"/>
+<text x="600" y="512" font-size="24" fill="#ff6b01" text-anchor="middle">Consistency is end-to-end:</text>
+<text x="600" y="544" font-size="24" fill="#eaedf3" text-anchor="middle">no single component can own it alone.</text>
+
+</svg>
