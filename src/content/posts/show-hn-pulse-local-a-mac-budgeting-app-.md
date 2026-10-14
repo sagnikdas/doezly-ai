@@ -1,8 +1,11 @@
 ---
 title: "Pulse Local: A Mac Budgeting App With Fully On-Device AI"
-description: "Pulse Local is a free Apple Silicon Mac budgeting app that runs its AI assistant entirely on-device, requires no account for local mode, and sends zero analytics, crash logs, or spending data to external servers."
+description: Pulse Local is a free Apple Silicon Mac budgeting app that runs its
+  AI assistant entirely on-device, requires no account for local mode, and sends
+  zero analytics, crash logs, or spending data to external servers.
 pubDatetime: 2026-10-14T01:21:11.900Z
-draft: true
+draft: false
+featured: false
 tags:
   - workflows-and-agents
 ---
@@ -28,8 +31,9 @@ The core pitch is privacy-by-architecture, not privacy-by-policy: the app techni
 
 ## How It Compares to Typical Budgeting Apps
 
+
 | Feature | Pulse Local | Typical Cloud Budgeting App (e.g., Mint-style) |
-|---|---|---|
+| --------------------- | ------------------------------------ | ---------------------------------------------- |
 | Data location | On-device only | Vendor's cloud servers |
 | Account required | No (local mode) | Yes |
 | Analytics/telemetry | None | Usually extensive |
@@ -37,6 +41,7 @@ The core pitch is privacy-by-architecture, not privacy-by-policy: the app techni
 | Offline functionality | Full | Limited or none |
 | Bank sync | Not emphasized (manual ledger focus) | Core feature via Plaid-like services |
 | Cost | Free + optional donations | Freemium/subscription |
+
 
 ## Why It Matters
 
