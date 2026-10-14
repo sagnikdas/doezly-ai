@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <title>Flow diagram showing how the mcd-coupon-strategist Skill turns a McDonald's order request into a bundling-trap check and cheapest-order output, alongside its 303 GitHub star count.</title>
+
+  <rect x="0" y="0" width="1200" height="630" rx="24" fill="#212737"/>
+
+  
+  <rect x="50" y="110" width="260" height="170" rx="12" fill="#343f60"/>
+  <text x="180" y="150" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="22" fill="#9aa4bf" text-anchor="middle">INPUT</text>
+  <text x="180" y="185" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="24" fill="#eaedf3" text-anchor="middle">Order request</text>
+  <text x="180" y="215" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="24" fill="#eaedf3" text-anchor="middle">(store + items)</text>
+
+  <polygon points="300,185 300,205 320,195" fill="#ff6b01"/>
+
+  
+  <rect x="330" y="110" width="260" height="170" rx="12" fill="#343f60"/>
+  <text x="460" y="150" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="22" fill="#9aa4bf" text-anchor="middle">SKILL</text>
+  <text x="460" y="185" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="24" fill="#eaedf3" text-anchor="middle">mcd-coupon-</text>
+  <text x="460" y="215" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="24" fill="#eaedf3" text-anchor="middle">strategist (MCP)</text>
+
+  <polygon points="590,185 590,205 610,195" fill="#ff6b01"/>
+
+  
+  <rect x="610" y="110" width="260" height="170" rx="12" fill="#343f60"/>
+  <text x="740" y="150" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="22" fill="#9aa4bf" text-anchor="middle">CHECK</text>
+  <text x="740" y="185" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="24" fill="#eaedf3" text-anchor="middle">Flags bundling</text>
+  <text x="740" y="215" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="24" fill="#eaedf3" text-anchor="middle">traps (凑单陷阱)</text>
+
+  <polygon points="870,185 870,205 890,195" fill="#ff6b01"/>
+
+  
+  <rect x="890" y="110" width="260" height="170" rx="12" fill="#343f60"/>
+  <text x="1020" y="150" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="22" fill="#9aa4bf" text-anchor="middle">OUTPUT</text>
+  <text x="1020" y="185" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="24" fill="#eaedf3" text-anchor="middle">Cheapest order</text>
+  <text x="1020" y="215" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="24" fill="#eaedf3" text-anchor="middle">combination</text>
+
+  
+  <rect x="90" y="380" width="1020" height="170" rx="16" fill="#343f60"/>
+
+  <text x="200" y="470" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="72" fill="#ff6b01" text-anchor="middle">303</text>
+  <text x="200" y="505" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="22" fill="#9aa4bf" text-anchor="middle">GitHub Stars</text>
+
+  <line x1="330" y1="400" x2="330" y2="530" stroke="#9aa4bf" stroke-width="1"/>
+
+  <text x="380" y="430" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="26" fill="#eaedf3">mcd-coupon-strategist</text>
+  <text x="380" y="465" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="22" fill="#9aa4bf">Cost-optimization Skill for</text>
+  <text x="380" y="495" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="22" fill="#9aa4bf">McDonald's MCP orders</text>
+  <text x="380" y="525" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="20" fill="#9aa4bf">github.com/Ayzzz123/mcd-coupon-strategist</text>
+
+</svg>
