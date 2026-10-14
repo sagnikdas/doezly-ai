@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+<title>A side-by-side timeline comparing chip-equipment order booms in 2000 and 2026, questioning whether ASML's strong Q4 forecast is a genuine new demand signal or déjà vu of a past cycle that preceded a bust.</title>
+<rect x="0" y="0" width="1200" height="630" fill="#212737" rx="24"/>
+
+<text x="600" y="80" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="30" fill="#eaedf3" font-weight="bold">Record Orders: Signal or Déjà Vu?</text>
+
+
+<rect x="100" y="140" width="480" height="300" rx="16" fill="#343f60"/>
+<text x="130" y="195" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="32" fill="#ff6b01" font-weight="bold">2000</text>
+<text x="130" y="245" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="22" fill="#eaedf3">SEMI index 4-yr high</text>
+<text x="130" y="285" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="22" fill="#eaedf3">Record equipment orders</text>
+<text x="130" y="335" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="24" fill="#9aa4bf">→ Dot-com bust</text>
+
+
+<rect x="620" y="140" width="480" height="300" rx="16" fill="#343f60"/>
+<text x="650" y="195" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="32" fill="#ff6b01" font-weight="bold">2026</text>
+<text x="650" y="245" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="22" fill="#eaedf3">ASML Q4 sales forecast</text>
+<text x="650" y="285" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="22" fill="#eaedf3">Cites AI chip demand</text>
+<text x="650" y="335" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="24" fill="#9aa4bf">→ Outcome unknown</text>
+
+
+<line x1="580" y1="290" x2="615" y2="290" stroke="#ff6b01" stroke-width="3"/>
+<polygon points="615,282 630,290 615,298" fill="#ff6b01"/>
+
+
+<text x="600" y="470" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="22" fill="#9aa4bf">Hacker News take:</text>
+<rect x="140" y="490" width="920" height="100" rx="16" fill="#343f60" stroke="#ff6b01" stroke-width="2"/>
+<text x="600" y="548" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="24" fill="#eaedf3">Skeptics: backlog is always years long</text>
+
+</svg>
