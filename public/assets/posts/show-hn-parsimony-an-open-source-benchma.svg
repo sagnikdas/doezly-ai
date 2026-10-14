@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+<title>Comparison of coding benchmarks showing only Parsimony penalizes code bloat, plus a diagram of its net coding-units formula and two unranked faded-circle models.</title>
+<rect x="0" y="0" width="1200" height="630" rx="24" fill="#212737"/>
+
+<text x="90" y="80" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="24" fill="#eaedf3" font-weight="bold">Which Benchmark Penalizes Code Bloat?</text>
+
+
+<text x="90" y="112" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="22" fill="#9aa4bf">Benchmark</text>
+<text x="820" y="112" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="22" fill="#9aa4bf">Penalizes Bloat?</text>
+
+
+<rect x="60" y="120" width="1080" height="46" rx="8" fill="#343f60"/>
+<text x="90" y="150" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="22" fill="#eaedf3">SWE-bench Verified</text>
+<text x="820" y="150" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="22" fill="#9aa4bf">No</text>
+
+
+<rect x="60" y="178" width="1080" height="46" rx="8" fill="#343f60"/>
+<text x="90" y="208" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="22" fill="#eaedf3">SWE-bench Live</text>
+<text x="820" y="208" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="22" fill="#9aa4bf">No</text>
+
+
+<rect x="60" y="236" width="1080" height="46" rx="8" fill="#343f60"/>
+<text x="90" y="266" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="22" fill="#eaedf3">DeepSWE</text>
+<text x="820" y="266" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="22" fill="#9aa4bf">No</text>
+
+
+<rect x="60" y="294" width="1080" height="46" rx="8" fill="#ff6b01" opacity="0.18"/>
+<rect x="60" y="294" width="1080" height="46" rx="8" fill="none" stroke="#ff6b01" stroke-width="2"/>
+<text x="90" y="324" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="22" fill="#ff6b01" font-weight="bold">Parsimony</text>
+<text x="820" y="324" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="22" fill="#ff6b01" font-weight="bold">Yes</text>
+
+
+<line x1="60" y1="366" x2="1140" y2="366" stroke="#343f60" stroke-width="2"/>
+
+
+<text x="90" y="398" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="22" fill="#9aa4bf">Parsimony score = net syntax units per solved task</text>
+
+<rect x="60" y="415" width="280" height="80" rx="10" fill="#343f60"/>
+<text x="200" y="448" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="22" fill="#eaedf3">Added Units</text>
+<text x="200" y="474" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="22" fill="#9aa4bf">stmts, calls, names</text>
+
+<text x="370" y="462" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="28" fill="#ff6b01">-</text>
+
+<rect x="400" y="415" width="280" height="80" rx="10" fill="#343f60"/>
+<text x="540" y="448" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="22" fill="#eaedf3">Deleted Units</text>
+<text x="540" y="474" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="22" fill="#9aa4bf">same categories</text>
+
+<text x="710" y="462" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="28" fill="#ff6b01">=</text>
+
+<rect x="740" y="415" width="340" height="80" rx="10" fill="#ff6b01" opacity="0.18"/>
+<rect x="740" y="415" width="340" height="80" rx="10" fill="none" stroke="#ff6b01" stroke-width="2"/>
+<text x="910" y="448" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="22" fill="#ff6b01" font-weight="bold">Net Coding Units</text>
+<text x="910" y="474" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="22" fill="#eaedf3">Parsimony score</text>
+
+
+<circle cx="850" cy="545" r="20" fill="#343f60" opacity="0.4" stroke="#9aa4bf" stroke-width="2"/>
+<circle cx="910" cy="545" r="20" fill="#343f60" opacity="0.4" stroke="#9aa4bf" stroke-width="2"/>
+<text x="500" y="552" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="22" fill="#9aa4bf">GPT-6 &amp; Claude 5.5:</text>
+<text x="950" y="552" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="22" fill="#9aa4bf">unranked (3-10 tasks)</text>
+</svg>
