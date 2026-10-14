@@ -1,8 +1,11 @@
 ---
-title: "New Tool Tracks How AI Leaders' Public Statements Change Over Time"
-description: "Blumify.io launched a people-tracking feature that logs quotes from AI leaders like Sam Altman to show how their stated views shift, sparking HN debate over sourcing rigor and selection bias."
+title: New Tool Tracks How AI Leaders' Public Statements Change Over Time
+description: Blumify.io launched a people-tracking feature that logs quotes from
+  AI leaders like Sam Altman to show how their stated views shift, sparking HN
+  debate over sourcing rigor and selection bias.
 pubDatetime: 2026-10-14T08:51:09.553Z
-draft: true
+draft: false
+featured: true
 tags:
   - workflows-and-agents
 ---
@@ -34,3 +37,4 @@ Other commenters saw upside despite these concerns, with one suggesting the unde
 
 - [Blumify.io/people](https://blumify.io/people)
 - [Hacker News discussion](https://news.ycombinator.com/item?id=50081151)
+
