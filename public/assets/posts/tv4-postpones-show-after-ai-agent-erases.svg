@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+<title>Timeline comparing TV4's delayed premiere with conflicting claims about an AI agent deleting edited footage.</title>
+<rect x="0" y="0" width="1200" height="630" rx="24" fill="#212737"/>
+
+
+<line x1="150" y1="160" x2="1050" y2="160" stroke="#343f60" stroke-width="4"/>
+
+<circle cx="200" cy="160" r="14" fill="#343f60" stroke="#ff6b01" stroke-width="3"/>
+<circle cx="600" cy="160" r="16" fill="#ff6b01"/>
+<circle cx="1000" cy="160" r="14" fill="#343f60" stroke="#ff6b01" stroke-width="3"/>
+
+<text x="200" y="120" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="26" fill="#eaedf3" text-anchor="middle">Nov 22</text>
+<text x="200" y="205" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="22" fill="#9aa4bf" text-anchor="middle">Original premiere</text>
+
+<text x="600" y="110" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="26" fill="#eaedf3" text-anchor="middle">AI deletes season</text>
+<text x="600" y="205" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="22" fill="#9aa4bf" text-anchor="middle">Hundreds of days lost</text>
+
+<text x="1000" y="120" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="26" fill="#eaedf3" text-anchor="middle">Late spring 2027</text>
+<text x="1000" y="205" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="22" fill="#9aa4bf" text-anchor="middle">New premiere</text>
+
+
+<rect x="80" y="250" width="480" height="190" rx="12" fill="#343f60"/>
+<rect x="640" y="250" width="480" height="190" rx="12" fill="#343f60"/>
+
+<text x="110" y="290" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="22" fill="#9aa4bf">NEWS REPORT</text>
+<text x="110" y="335" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="26" fill="#eaedf3">AI agent deleted</text>
+<text x="110" y="370" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="26" fill="#eaedf3">edited footage</text>
+
+<text x="670" y="290" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="22" fill="#9aa4bf">TV4 RESPONSE</text>
+<text x="670" y="335" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="26" fill="#eaedf3">Denies AI agent</text>
+<text x="670" y="370" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="26" fill="#eaedf3">was responsible</text>
+<text x="670" y="410" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="22" fill="#9aa4bf">— Director Mia Lindqvist</text>
+
+
+<text x="600" y="560" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="22" fill="#9aa4bf" text-anchor="middle">62 pts, 32 comments on HN</text>
+</svg>
