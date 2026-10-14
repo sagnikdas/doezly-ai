@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+<title>Diagram comparing fixed-format GUI agent memory with SwitchMem's per-step dynamic text/image routing, showing SwitchMem outperforms static baselines on three benchmarks.</title>
+<rect x="0" y="0" width="1200" height="630" fill="#212737" rx="24"/>
+
+<text x="600" y="95" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="22" fill="#9aa4bf" text-anchor="middle">T = Text memory&#160;&#160;&#160;&#160;I = Image memory</text>
+
+
+<rect x="60" y="140" width="520" height="300" rx="16" fill="#343f60"/>
+<text x="100" y="185" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="28" fill="#eaedf3">Existing Agents</text>
+<text x="100" y="218" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="22" fill="#9aa4bf">Fixed format every step</text>
+
+<g>
+<rect x="100" y="257" width="70" height="70" rx="8" fill="#1b2133" stroke="#9aa4bf" stroke-width="3"/>
+<text x="135" y="302" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="30" fill="#9aa4bf" text-anchor="middle">T</text>
+<rect x="190" y="257" width="70" height="70" rx="8" fill="#1b2133" stroke="#9aa4bf" stroke-width="3"/>
+<text x="225" y="302" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="30" fill="#9aa4bf" text-anchor="middle">T</text>
+<rect x="280" y="257" width="70" height="70" rx="8" fill="#1b2133" stroke="#9aa4bf" stroke-width="3"/>
+<text x="315" y="302" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="30" fill="#9aa4bf" text-anchor="middle">T</text>
+<rect x="370" y="257" width="70" height="70" rx="8" fill="#1b2133" stroke="#9aa4bf" stroke-width="3"/>
+<text x="405" y="302" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="30" fill="#9aa4bf" text-anchor="middle">T</text>
+<rect x="460" y="257" width="70" height="70" rx="8" fill="#1b2133" stroke="#9aa4bf" stroke-width="3"/>
+<text x="495" y="302" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="30" fill="#9aa4bf" text-anchor="middle">T</text>
+<line x1="170" y1="292" x2="190" y2="292" stroke="#9aa4bf" stroke-width="2"/>
+<line x1="260" y1="292" x2="280" y2="292" stroke="#9aa4bf" stroke-width="2"/>
+<line x1="350" y1="292" x2="370" y2="292" stroke="#9aa4bf" stroke-width="2"/>
+<line x1="440" y1="292" x2="460" y2="292" stroke="#9aa4bf" stroke-width="2"/>
+</g>
+
+
+<rect x="620" y="140" width="520" height="300" rx="16" fill="#343f60"/>
+<text x="660" y="185" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="28" fill="#eaedf3">SwitchMem</text>
+<text x="660" y="218" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="22" fill="#9aa4bf">Router picks text/image per step</text>
+
+<g>
+<rect x="660" y="257" width="70" height="70" rx="8" fill="#1b2133" stroke="#9aa4bf" stroke-width="3"/>
+<text x="695" y="302" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="30" fill="#9aa4bf" text-anchor="middle">T</text>
+<rect x="750" y="257" width="70" height="70" rx="8" fill="#1b2133" stroke="#ff6b01" stroke-width="3"/>
+<text x="785" y="302" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="30" fill="#ff6b01" text-anchor="middle">I</text>
+<rect x="840" y="257" width="70" height="70" rx="8" fill="#1b2133" stroke="#9aa4bf" stroke-width="3"/>
+<text x="875" y="302" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="30" fill="#9aa4bf" text-anchor="middle">T</text>
+<rect x="930" y="257" width="70" height="70" rx="8" fill="#1b2133" stroke="#ff6b01" stroke-width="3"/>
+<text x="965" y="302" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="30" fill="#ff6b01" text-anchor="middle">I</text>
+<rect x="1020" y="257" width="70" height="70" rx="8" fill="#1b2133" stroke="#9aa4bf" stroke-width="3"/>
+<text x="1055" y="302" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="30" fill="#9aa4bf" text-anchor="middle">T</text>
+<line x1="730" y1="292" x2="750" y2="292" stroke="#9aa4bf" stroke-width="2"/>
+<line x1="820" y1="292" x2="840" y2="292" stroke="#9aa4bf" stroke-width="2"/>
+<line x1="910" y1="292" x2="930" y2="292" stroke="#9aa4bf" stroke-width="2"/>
+<line x1="1000" y1="292" x2="1020" y2="292" stroke="#9aa4bf" stroke-width="2"/>
+</g>
+
+
+<rect x="60" y="480" width="1080" height="90" rx="16" fill="#343f60" stroke="#ff6b01" stroke-width="2"/>
+<text x="600" y="534" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="26" fill="#eaedf3" text-anchor="middle">SwitchMem outperforms fixed-memory baselines on 3 GUI benchmarks</text>
+</svg>
