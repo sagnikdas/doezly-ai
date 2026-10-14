@@ -1,8 +1,12 @@
 ---
-title: "Consus (YC F24) Launches LLM Gateway Built for ITAR and CUI Compliance"
-description: "Consus, a YC F24 startup, launched an LLM gateway that routes AI requests to ITAR-restricted, CUI-compliant infrastructure and has completed a FedRAMP High equivalency audit against 410 controls, aiming to help aerospace and defense companies adopt AI safely."
+title: Consus (YC F24) Launches LLM Gateway Built for ITAR and CUI Compliance
+description: Consus, a YC F24 startup, launched an LLM gateway that routes AI
+  requests to ITAR-restricted, CUI-compliant infrastructure and has completed a
+  FedRAMP High equivalency audit against 410 controls, aiming to help aerospace
+  and defense companies adopt AI safely.
 pubDatetime: 2026-10-14T08:51:23.218Z
-draft: true
+draft: false
+featured: false
 tags:
   - workflows-and-agents
 ---
@@ -12,7 +16,7 @@ Consus, a Y Combinator F24 company, launched an LLM gateway designed to let comp
 
 ## What did Consus launch?
 
-Consus launched an LLM gateway that routes AI requests through infrastructure compliant with ITAR and CUI requirements. The company says it recently completed a FedRAMP equivalency audit against the 410 FedRAMP High controls, which it describes as the U.S. government's strictest security baseline for cloud services handling sensitive unclassified data. A demo video was posted at https://youtu.be/6MYxJe6P4oY.
+Consus launched an LLM gateway that routes AI requests through infrastructure compliant with ITAR and CUI requirements. The company says it recently completed a FedRAMP equivalency audit against the 410 FedRAMP High controls, which it describes as the U.S. government's strictest security baseline for cloud services handling sensitive unclassified data. A demo video was posted at [https://youtu.be/6MYxJe6P4oY](https://youtu.be/6MYxJe6P4oY).
 
 ## Why does FedRAMP High equivalency matter?
 
@@ -39,5 +43,6 @@ Consus is betting that compliance-ready infrastructure — not just model access
 
 ## Sources
 
-- Original post: https://news.ycombinator.com/item?id=50073471
-- Hacker News discussion: https://news.ycombinator.com/item?id=50073471
+- Original post: [https://news.ycombinator.com/item?id=50073471](https://news.ycombinator.com/item?id=50073471)
+- Hacker News discussion: [https://news.ycombinator.com/item?id=50073471](https://news.ycombinator.com/item?id=50073471)
+
