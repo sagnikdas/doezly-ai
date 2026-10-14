@@ -1,8 +1,12 @@
 ---
 title: "Tracking AI Leaders' Statements Over Time: A Video-Based Claim-Diffing Tool"
-description: "A new open-source tool ingests podcast and interview transcripts from AI leaders (Altman, Hassabis, Amodei, LeCun), extracts discrete claims via LLM, and diffs them chronologically to surface position changes—built on yt-dlp, Whisper, and embedding-based similarity search."
+description: A new open-source tool ingests podcast and interview transcripts
+  from AI leaders (Altman, Hassabis, Amodei, LeCun), extracts discrete claims
+  via LLM, and diffs them chronologically to surface position changes—built on
+  yt-dlp, Whisper, and embedding-based similarity search.
 pubDatetime: 2026-10-14T04:42:06.235Z
-draft: true
+draft: false
+featured: true
 tags:
   - workflows-and-agents
 ---
@@ -42,13 +46,15 @@ Claims are stored as structured objects (`speaker`, `topic`, `statement`, `date`
 
 ## Comparison: Manual Tracking vs. This Tool vs. Generic Search
 
+
 | Capability | Manual Notes / Twitter Threads | Generic Transcript Search | This Tool |
-|---|---|---|---|
+| ----------------------- | ------------------------------ | ------------------------- | --------------------------------- |
 | Source coverage | Whatever you happen to watch | Keyword search only | Automated multi-channel ingestion |
 | Historical comparison | Relies on memory | None | Vector-diffed claim history |
 | Attribution granularity | Loose, paraphrased | Full transcript dump | Atomic, structured claims |
 | Change detection | Manual, inconsistent | Not supported | Automated contradiction flags |
 | Output format | Blog posts, threads | Raw text | Queryable timeline + API |
+
 
 ## What This Enables
 
