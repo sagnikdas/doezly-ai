@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+<title>Cycle diagram of RSI-Nav's self-improving training loop with final benchmark scores.</title>
+<defs>
+<marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+<polygon points="0,0 10,5 0,10" fill="#ff6b01"/>
+</marker>
+</defs>
+<rect x="0" y="0" width="1200" height="630" rx="24" fill="#212737"/>
+
+<text x="600" y="70" text-anchor="middle" font-size="26" font-family="ui-monospace, Menlo, Consolas, monospace" fill="#ff6b01">RSI-Nav Self-Improvement Loop</text>
+
+
+<rect x="90" y="110" width="280" height="100" rx="12" fill="#343f60"/>
+<text x="230" y="155" text-anchor="middle" font-size="22" font-family="ui-monospace, Menlo, Consolas, monospace" fill="#eaedf3">Unlabeled Trajectory</text>
+<text x="230" y="182" text-anchor="middle" font-size="22" font-family="ui-monospace, Menlo, Consolas, monospace" fill="#eaedf3">Shard</text>
+
+<rect x="830" y="110" width="280" height="100" rx="12" fill="#343f60"/>
+<text x="970" y="167" text-anchor="middle" font-size="22" font-family="ui-monospace, Menlo, Consolas, monospace" fill="#eaedf3">Generate Instructions</text>
+
+<rect x="830" y="300" width="280" height="100" rx="12" fill="#343f60"/>
+<text x="970" y="357" text-anchor="middle" font-size="22" font-family="ui-monospace, Menlo, Consolas, monospace" fill="#eaedf3">Execute and Evaluate</text>
+
+<rect x="90" y="300" width="280" height="100" rx="12" fill="#343f60"/>
+<text x="230" y="345" text-anchor="middle" font-size="22" font-family="ui-monospace, Menlo, Consolas, monospace" fill="#eaedf3">Filter + Update</text>
+<text x="230" y="372" text-anchor="middle" font-size="22" font-family="ui-monospace, Menlo, Consolas, monospace" fill="#eaedf3">Model</text>
+
+
+<circle cx="600" cy="255" r="70" fill="none" stroke="#ff6b01" stroke-width="3"/>
+<text x="600" y="250" text-anchor="middle" font-size="22" font-family="ui-monospace, Menlo, Consolas, monospace" fill="#eaedf3">Shared</text>
+<text x="600" y="276" text-anchor="middle" font-size="22" font-family="ui-monospace, Menlo, Consolas, monospace" fill="#eaedf3">Model</text>
+
+
+<line x1="370" y1="160" x2="820" y2="160" stroke="#ff6b01" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="970" y1="210" x2="970" y2="292" stroke="#ff6b01" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="830" y1="350" x2="380" y2="350" stroke="#ff6b01" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="230" y1="300" x2="230" y2="218" stroke="#ff6b01" stroke-width="3" marker-end="url(#arrow)"/>
+
+
+<text x="600" y="420" text-anchor="middle" font-size="26" font-family="ui-monospace, Menlo, Consolas, monospace" fill="#ff6b01">Benchmark Results</text>
+
+<line x1="300" y1="560" x2="900" y2="560" stroke="#9aa4bf" stroke-width="2"/>
+
+<rect x="350" y="478" width="160" height="82" fill="#ff6b01"/>
+<text x="430" y="465" text-anchor="middle" font-size="22" font-family="ui-monospace, Menlo, Consolas, monospace" fill="#eaedf3">68.6%</text>
+<text x="430" y="585" text-anchor="middle" font-size="22" font-family="ui-monospace, Menlo, Consolas, monospace" fill="#9aa4bf">R2R-CE</text>
+
+<rect x="690" y="473" width="160" height="87" fill="#ff6b01"/>
+<text x="770" y="460" text-anchor="middle" font-size="22" font-family="ui-monospace, Menlo, Consolas, monospace" fill="#eaedf3">72.4%</text>
+<text x="770" y="585" text-anchor="middle" font-size="22" font-family="ui-monospace, Menlo, Consolas, monospace" fill="#9aa4bf">RxR-CE</text>
+</svg>
