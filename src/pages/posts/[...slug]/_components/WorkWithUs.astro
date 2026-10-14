@@ -1,0 +1,29 @@
+---
+type Props = { title: string };
+
+const { title } = Astro.props;
+
+const mailto = `mailto:contact@doezly.com?subject=${encodeURIComponent(
+  `About: ${title}`
+)}`;
+---
+
+<aside
+  class="border-border mt-10 rounded-lg border p-5 sm:p-6"
+  aria-labelledby="work-with-us-heading"
+  data-pagefind-ignore
+>
+  <h2 id="work-with-us-heading" class="text-lg font-semibold">
+    Want something like this built for your team?
+  </h2>
+  <p class="mt-2">
+    Doezly is a research-led AI studio. If you are exploring a partnership, a
+    pilot, or an AI workflow of your own, tell us what you are working on.
+  </p>
+  <a
+    href={mailto}
+    class="bg-accent text-background mt-4 inline-block rounded-md px-4 py-2 font-semibold hover:opacity-90"
+  >
+    Talk to Doezly
+  </a>
+</aside>
