@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+<title>Flow diagram showing how the Blender AI add-on turns text or image input into bpy code that builds a 3D model, alongside its 212 GitHub stars.</title>
+<rect x="0" y="0" width="1200" height="630" rx="24" fill="#212737"/>
+
+
+<rect x="40" y="160" width="250" height="140" rx="16" fill="#343f60"/>
+<text x="165" y="238" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="26" fill="#eaedf3" text-anchor="middle">Text or Image</text>
+
+<rect x="330" y="160" width="250" height="140" rx="16" fill="#343f60"/>
+<text x="455" y="238" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="26" fill="#ff6b01" text-anchor="middle">AI Chat</text>
+
+<rect x="620" y="160" width="250" height="140" rx="16" fill="#343f60"/>
+<text x="745" y="238" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="26" fill="#eaedf3" text-anchor="middle">bpy Code</text>
+
+<rect x="910" y="160" width="250" height="140" rx="16" fill="#343f60"/>
+<text x="1035" y="238" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="26" fill="#eaedf3" text-anchor="middle">3D Model</text>
+
+
+<line x1="290" y1="230" x2="328" y2="230" stroke="#ff6b01" stroke-width="4"/>
+<polygon points="328,222 345,230 328,238" fill="#ff6b01"/>
+
+<line x1="580" y1="230" x2="618" y2="230" stroke="#ff6b01" stroke-width="4"/>
+<polygon points="618,222 635,230 618,238" fill="#ff6b01"/>
+
+<line x1="870" y1="230" x2="908" y2="230" stroke="#ff6b01" stroke-width="4"/>
+<polygon points="908,222 925,230 908,238" fill="#ff6b01"/>
+
+
+<text x="600" y="360" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="24" fill="#9aa4bf" text-anchor="middle">Conversational interface to Blender's Python API</text>
+
+
+<rect x="200" y="420" width="800" height="150" rx="20" fill="#343f60"/>
+<text x="400" y="505" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="56" fill="#ff6b01" text-anchor="middle">212</text>
+<text x="400" y="545" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="24" fill="#eaedf3" text-anchor="middle">GitHub Stars</text>
+
+<text x="750" y="505" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="24" fill="#9aa4bf" text-anchor="middle">Repository</text>
+<text x="750" y="545" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="22" fill="#eaedf3" text-anchor="middle">BlenderGPT3D/blender-ai-addon</text>
+</svg>
