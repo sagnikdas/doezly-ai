@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+<title>Comparison of fully-connected, centralized, and Multics hierarchical multi-player communication architectures, plus a timeline showing training at 4 players generalizing to 10 players without retraining.</title>
+<rect x="0" y="0" width="1200" height="630" rx="24" fill="#212737"/>
+
+
+<rect x="40" y="90" width="340" height="270" rx="16" fill="#343f60"/>
+<text x="210" y="125" text-anchor="middle" font-size="24" fill="#eaedf3" font-family="ui-monospace, Menlo, Consolas, monospace">Fully-Connected</text>
+<text x="210" y="152" text-anchor="middle" font-size="22" fill="#9aa4bf" font-family="ui-monospace, Menlo, Consolas, monospace">O(N²) attention</text>
+<g stroke="#9aa4bf" stroke-width="2">
+<line x1="130" y1="215" x2="290" y2="215"/>
+<line x1="130" y1="215" x2="130" y2="305"/>
+<line x1="130" y1="215" x2="290" y2="305"/>
+<line x1="290" y1="215" x2="130" y2="305"/>
+<line x1="290" y1="215" x2="290" y2="305"/>
+<line x1="130" y1="305" x2="290" y2="305"/>
+</g>
+<g fill="#9aa4bf">
+<circle cx="130" cy="215" r="10"/>
+<circle cx="290" cy="215" r="10"/>
+<circle cx="130" cy="305" r="10"/>
+<circle cx="290" cy="305" r="10"/>
+</g>
+
+
+<rect x="420" y="90" width="340" height="270" rx="16" fill="#343f60"/>
+<text x="590" y="125" text-anchor="middle" font-size="24" fill="#eaedf3" font-family="ui-monospace, Menlo, Consolas, monospace">Centralized</text>
+<text x="590" y="152" text-anchor="middle" font-size="22" fill="#9aa4bf" font-family="ui-monospace, Menlo, Consolas, monospace">Global hub causes</text>
+<text x="590" y="176" text-anchor="middle" font-size="22" fill="#9aa4bf" font-family="ui-monospace, Menlo, Consolas, monospace">interference</text>
+<g stroke="#9aa4bf" stroke-width="2">
+<line x1="510" y1="230" x2="590" y2="275"/>
+<line x1="670" y1="230" x2="590" y2="275"/>
+<line x1="510" y1="320" x2="590" y2="275"/>
+<line x1="670" y1="320" x2="590" y2="275"/>
+</g>
+<g fill="#9aa4bf">
+<circle cx="510" cy="230" r="10"/>
+<circle cx="670" cy="230" r="10"/>
+<circle cx="510" cy="320" r="10"/>
+<circle cx="670" cy="320" r="10"/>
+</g>
+<circle cx="590" cy="275" r="13" fill="#eaedf3"/>
+
+
+<rect x="800" y="90" width="340" height="270" rx="16" fill="#343f60" stroke="#ff6b01" stroke-width="3"/>
+<text x="970" y="125" text-anchor="middle" font-size="24" fill="#ff6b01" font-family="ui-monospace, Menlo, Consolas, monospace">Multics: Hierarchical</text>
+<text x="970" y="152" text-anchor="middle" font-size="22" fill="#9aa4bf" font-family="ui-monospace, Menlo, Consolas, monospace">Player→Group→Global</text>
+<g stroke="#9aa4bf" stroke-width="2">
+<line x1="850" y1="190" x2="890" y2="260"/>
+<line x1="930" y1="190" x2="890" y2="260"/>
+<line x1="1010" y1="190" x2="1050" y2="260"/>
+<line x1="1090" y1="190" x2="1050" y2="260"/>
+<line x1="890" y1="260" x2="970" y2="325"/>
+<line x1="1050" y1="260" x2="970" y2="325"/>
+</g>
+<g fill="#9aa4bf">
+<circle cx="850" cy="190" r="9"/>
+<circle cx="930" cy="190" r="9"/>
+<circle cx="1010" cy="190" r="9"/>
+<circle cx="1090" cy="190" r="9"/>
+</g>
+<g fill="#ff6b01">
+<circle cx="890" cy="260" r="11"/>
+<circle cx="1050" cy="260" r="11"/>
+</g>
+<circle cx="970" cy="325" r="13" fill="#eaedf3" stroke="#ff6b01" stroke-width="2"/>
+
+
+<text x="600" y="400" text-anchor="middle" font-size="24" fill="#ff6b01" font-family="ui-monospace, Menlo, Consolas, monospace">SOTA at 4 &amp; 6 players</text>
+
+
+<rect x="100" y="450" width="260" height="90" rx="12" fill="#343f60"/>
+<text x="230" y="488" text-anchor="middle" font-size="22" fill="#eaedf3" font-family="ui-monospace, Menlo, Consolas, monospace">Trained on</text>
+<text x="230" y="516" text-anchor="middle" font-size="22" fill="#eaedf3" font-family="ui-monospace, Menlo, Consolas, monospace">4 players</text>
+
+<line x1="365" y1="495" x2="450" y2="495" stroke="#ff6b01" stroke-width="3"/>
+<polygon points="450,487 465,495 450,503" fill="#ff6b01"/>
+
+<rect x="470" y="450" width="590" height="90" rx="12" fill="#343f60"/>
+<text x="765" y="488" text-anchor="middle" font-size="22" fill="#eaedf3" font-family="ui-monospace, Menlo, Consolas, monospace">Generalizes to 6, 8, 10 players</text>
+<text x="765" y="516" text-anchor="middle" font-size="22" fill="#9aa4bf" font-family="ui-monospace, Menlo, Consolas, monospace">No retraining needed</text>
+</svg>
