@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <title>Flow diagram showing how UCLA's Tev-Gym dataset and PPRS reward shaping train the Tev-27B agent, followed by its benchmark results against other models.</title>
+  <rect x="0" y="0" width="1200" height="630" rx="24" fill="#212737"/>
+
+  
+  <rect x="60" y="110" width="330" height="140" rx="12" fill="#343f60"/>
+  <text x="225" y="160" font-size="26" fill="#ff6b01" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace">Tev-Gym</text>
+  <text x="225" y="200" font-size="22" fill="#9aa4bf" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace">1,170 tasks, 7 domains</text>
+
+  
+  <line x1="390" y1="180" x2="430" y2="180" stroke="#9aa4bf" stroke-width="3"/>
+  <polygon points="430,172 445,180 430,188" fill="#9aa4bf"/>
+
+  
+  <rect x="435" y="110" width="330" height="140" rx="12" fill="#343f60"/>
+  <text x="600" y="155" font-size="26" fill="#ff6b01" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace">PPRS</text>
+  <text x="600" y="190" font-size="22" fill="#9aa4bf" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace">Per-step rewards</text>
+  <text x="600" y="218" font-size="22" fill="#9aa4bf" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace">from progress score</text>
+
+  
+  <line x1="765" y1="180" x2="805" y2="180" stroke="#9aa4bf" stroke-width="3"/>
+  <polygon points="805,172 820,180 805,188" fill="#9aa4bf"/>
+
+  
+  <rect x="810" y="110" width="330" height="140" rx="12" fill="#343f60"/>
+  <text x="975" y="160" font-size="26" fill="#ff6b01" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace">Tev-27B</text>
+  <text x="975" y="200" font-size="22" fill="#9aa4bf" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace">Trained agent model</text>
+
+  
+  <rect x="60" y="300" width="1080" height="270" rx="16" fill="#343f60"/>
+  <text x="90" y="345" font-size="26" fill="#eaedf3" font-family="ui-monospace, Menlo, Consolas, monospace">Benchmark Results</text>
+
+  <circle cx="100" cy="400" r="6" fill="#ff6b01"/>
+  <text x="120" y="408" font-size="22" fill="#eaedf3" font-family="ui-monospace, Menlo, Consolas, monospace">ALE-CM: matches GPT-6 Astra, Claude Opus 5</text>
+
+  <circle cx="100" cy="460" r="6" fill="#ff6b01"/>
+  <text x="120" y="468" font-size="22" fill="#eaedf3" font-family="ui-monospace, Menlo, Consolas, monospace">TB 3.0/4.0: surpasses GLM 5.2, Gemini 3.7 Flash</text>
+
+  <circle cx="100" cy="520" r="6" fill="#ff6b01"/>
+  <text x="120" y="528" font-size="22" fill="#eaedf3" font-family="ui-monospace, Menlo, Consolas, monospace">TB 2.1: reaches Claude Opus 4.8 level</text>
+</svg>
