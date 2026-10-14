@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <title>Diagram showing a solo founder's Grok Bot agents (support, engineer, security, marketing) feeding into PromptBase, the 4am autonomous feature launch, and the week's downsides.</title>
+  <rect x="0" y="0" width="1200" height="630" fill="#212737" rx="24"/>
+
+  
+  <g font-family="ui-monospace, Menlo, Consolas, monospace">
+    <rect x="40" y="60" width="250" height="150" fill="#343f60" rx="12"/>
+    <text x="165" y="110" fill="#ff6b01" font-size="24" text-anchor="middle">Support</text>
+    <text x="165" y="148" fill="#eaedf3" font-size="22" text-anchor="middle">Answers emails</text>
+
+    <rect x="310" y="60" width="250" height="150" fill="#343f60" rx="12"/>
+    <text x="435" y="110" fill="#ff6b01" font-size="24" text-anchor="middle">Engineer</text>
+    <text x="435" y="148" fill="#eaedf3" font-size="22" text-anchor="middle">Writes code</text>
+
+    <rect x="580" y="60" width="250" height="150" fill="#343f60" rx="12"/>
+    <text x="705" y="110" fill="#ff6b01" font-size="24" text-anchor="middle">Security</text>
+    <text x="705" y="148" fill="#eaedf3" font-size="22" text-anchor="middle">Watches logs</text>
+
+    <rect x="850" y="60" width="250" height="150" fill="#343f60" rx="12"/>
+    <text x="975" y="110" fill="#ff6b01" font-size="24" text-anchor="middle">Marketing</text>
+    <text x="975" y="148" fill="#eaedf3" font-size="22" text-anchor="middle">Grows social 2%</text>
+  </g>
+
+  
+  <rect x="450" y="240" width="300" height="60" fill="#ff6b01" rx="10"/>
+  <text x="600" y="278" fill="#212737" font-size="24" font-family="ui-monospace, Menlo, Consolas, monospace" text-anchor="middle">PromptBase</text>
+
+  
+  <g stroke="#9aa4bf" stroke-width="2">
+    <line x1="165" y1="210" x2="500" y2="245"/>
+    <line x1="435" y1="210" x2="560" y2="245"/>
+    <line x1="705" y1="210" x2="650" y2="245"/>
+    <line x1="975" y1="210" x2="700" y2="245"/>
+  </g>
+
+  
+  <text x="600" y="330" fill="#9aa4bf" font-size="24" font-family="ui-monospace, Menlo, Consolas, monospace" text-anchor="middle">4AM Autonomous Launch</text>
+
+  <g font-family="ui-monospace, Menlo, Consolas, monospace">
+    <rect x="40" y="350" width="320" height="90" fill="#343f60" rx="12"/>
+    <text x="200" y="402" fill="#eaedf3" font-size="22" text-anchor="middle">Ship 1 feature</text>
+
+    <rect x="380" y="350" width="320" height="90" fill="#343f60" rx="12"/>
+    <text x="540" y="402" fill="#eaedf3" font-size="22" text-anchor="middle">Built timeout alert</text>
+
+    <rect x="720" y="350" width="320" height="90" fill="#343f60" rx="12"/>
+    <text x="880" y="402" fill="#eaedf3" font-size="22" text-anchor="middle">Shipped while asleep</text>
+  </g>
+
+  <g stroke="#ff6b01" stroke-width="3">
+    <line x1="360" y1="395" x2="380" y2="395"/>
+    <line x1="700" y1="395" x2="720" y2="395"/>
+  </g>
+
+  
+  <text x="600" y="470" fill="#9aa4bf" font-size="24" font-family="ui-monospace, Menlo, Consolas, monospace" text-anchor="middle">Downsides</text>
+
+  <g font-family="ui-monospace, Menlo, Consolas, monospace">
+    <rect x="40" y="490" width="320" height="90" fill="#343f60" rx="12"/>
+    <text x="200" y="542" fill="#eaedf3" font-size="22" text-anchor="middle">Vendor lock-in</text>
+
+    <rect x="380" y="490" width="320" height="90" fill="#343f60" rx="12"/>
+    <text x="540" y="542" fill="#eaedf3" font-size="22" text-anchor="middle">No moonshot ideas</text>
+
+    <rect x="720" y="490" width="320" height="90" fill="#343f60" rx="12"/>
+    <text x="880" y="542" fill="#eaedf3" font-size="22" text-anchor="middle">Lose business insight</text>
+  </g>
+</svg>
