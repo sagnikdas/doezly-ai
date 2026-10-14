@@ -1,8 +1,13 @@
 ---
-title: "Agent-Reflex Teaches AI Agents to Catch Their Own Mistakes"
-description: "Researchers from Renmin University of China built Agent-Reflex, a training framework that teaches LLM agents to reflect on noisy tool feedback and user corrections. Built on Qwen3-8B, it scores 58.6 overall on five long-horizon tool-use benchmarks and 29.1 on AgentNoiseBench, beating existing environment-scaling and reflection baselines."
+title: Agent-Reflex Teaches AI Agents to Catch Their Own Mistakes
+description: Researchers from Renmin University of China built Agent-Reflex, a
+  training framework that teaches LLM agents to reflect on noisy tool feedback
+  and user corrections. Built on Qwen3-8B, it scores 58.6 overall on five
+  long-horizon tool-use benchmarks and 29.1 on AgentNoiseBench, beating existing
+  environment-scaling and reflection baselines.
 pubDatetime: 2026-10-14T10:06:14.944Z
-draft: true
+draft: false
+featured: true
 tags:
   - workflows-and-agents
 ---
@@ -22,11 +27,13 @@ Agent-Reflex treats reflection as a learnable, transferable meta-skill rather th
 
 Agent-Reflex is positioned against two prior families of environment-scaling methods: implicit world-model approaches like Simia and GenEnv, which generate feedback from LLMs but risk hallucination, and explicit approaches that synthesize executable tools and databases from real-world service themes. Agent-Reflex builds on the explicit, database-backed style but adds injected noise and mined reflection skills that neither prior group specifically targets.
 
+
 | Approach | Feedback source | Noise handling | User correction |
-|---|---|---|---|
+| ------------------------------- | ------------------------------- | ------------------------------------------------- | --------------------------------- |
 | Simia / GenEnv (implicit) | LLM-generated from tool specs | Not addressed; risk of hallucination | Limited |
 | Explicit executable-env methods | Real databases/executable tools | Not addressed | Limited |
 | Agent-Reflex | Database-backed executable envs | Injected tool-return failures + mined meta-skills | User-centric correction via ReSFT |
+
 
 ## What did the experiments show?
 
@@ -38,4 +45,5 @@ For anyone deploying tool-using LLM agents in production, unreliable APIs and mi
 
 ## Sources
 
-- https://huggingface.co/papers/2610.17953
+- [https://huggingface.co/papers/2610.17953](https://huggingface.co/papers/2610.17953)
+
