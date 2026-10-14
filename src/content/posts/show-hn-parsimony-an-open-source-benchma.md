@@ -1,8 +1,13 @@
 ---
 title: "Parsimony: A New Benchmark That Measures Code Bloat in AI Models"
-description: "Parsimony is an open-source benchmark that scores AI coding models by net 'coding units' added per task, penalizing excess code instead of just measuring solve rate or token cost. It reuses public patches from SWE-bench Verified, SWE-bench Live, and DeepSWE, with GPT-6 and Claude 5.5 shown as unranked faded circles due to limited sample sizes (3–10 tasks)."
+description: Parsimony is an open-source benchmark that scores AI coding models
+  by net 'coding units' added per task, penalizing excess code instead of just
+  measuring solve rate or token cost. It reuses public patches from SWE-bench
+  Verified, SWE-bench Live, and DeepSWE, with GPT-6 and Claude 5.5 shown as
+  unranked faded circles due to limited sample sizes (3–10 tasks).
 pubDatetime: 2026-10-14T01:20:37.538Z
-draft: true
+draft: false
+featured: true
 tags:
   - workflows-and-agents
 ---
@@ -34,12 +39,14 @@ Key design choices:
 
 ## Comparison: What Parsimony Adds
 
+
 | Benchmark | Measures | Penalizes Bloat? | Data Source |
-|---|---|---|---|
+| ------------------ | -------------------------- | ---------------- | ----------------------------------- |
 | SWE-bench Verified | Solve rate | No | Public patches |
 | SWE-bench Live | Solve rate (live tasks) | No | Public patches |
 | DeepSWE | Solve rate, token cost | No | Public patches |
 | **Parsimony** | Net coding units per solve | **Yes** | Reused public patches + manual runs |
+
 
 ## Current Limitations
 
