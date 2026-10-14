@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+<title>Diagram showing Sam Altman's shifting compute quotes and the Hacker News debate over Blumify's new tool that tracks AI leaders' public statements.</title>
+<rect x="0" y="0" width="1200" height="630" rx="24" fill="#212737"/>
+
+
+<text x="600" y="70" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="26" fill="#ff6b01" font-weight="bold">Sam Altman on AI compute</text>
+
+<rect x="100" y="100" width="380" height="140" rx="12" fill="#343f60"/>
+<text x="290" y="135" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="22" fill="#9aa4bf">Oct 2025</text>
+<text x="290" y="185" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="24" fill="#eaedf3">"a glut for sure"</text>
+
+<rect x="720" y="100" width="380" height="140" rx="12" fill="#343f60"/>
+<text x="910" y="135" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="22" fill="#9aa4bf">Jun 2026</text>
+<text x="910" y="185" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="24" fill="#eaedf3">"a shortage forever"</text>
+
+<line x1="480" y1="170" x2="720" y2="170" stroke="#ff6b01" stroke-width="3"/>
+<polygon points="720,170 705,162 705,178" fill="#ff6b01"/>
+<text x="600" y="155" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="22" fill="#9aa4bf">8 months apart</text>
+
+
+<rect x="100" y="310" width="440" height="230" rx="12" fill="#343f60"/>
+<text x="130" y="350" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="24" fill="#ff6b01" font-weight="bold">Sourcing concerns</text>
+<text x="130" y="400" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="22" fill="#eaedf3">Misattributed quotes</text>
+<text x="130" y="440" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="22" fill="#eaedf3">No speaker ID in</text>
+<text x="130" y="470" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="22" fill="#eaedf3">auto-captions</text>
+
+<rect x="660" y="310" width="440" height="230" rx="12" fill="#343f60"/>
+<text x="690" y="350" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="24" fill="#ff6b01" font-weight="bold">Potential value</text>
+<text x="690" y="400" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="22" fill="#eaedf3">Reveals belief shifts</text>
+<text x="690" y="440" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="22" fill="#eaedf3">and thought-leadership</text>
+<text x="690" y="470" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="22" fill="#eaedf3">patterns over time</text>
+
+
+<text x="600" y="590" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="22" fill="#9aa4bf">94 points · 59 comments on Hacker News</text>
+</svg>
