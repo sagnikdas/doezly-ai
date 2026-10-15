@@ -1,8 +1,13 @@
 ---
 title: "AesCode: Teaching Code Models to See With Decoupled Cross-Modal Rewards"
-description: "AesCode uses a reference image as an aesthetic prior to train code models that generate slides, posters, and dashboards; AesCode-8B and AesCode-32B gain 31.1 and 22.4 Visual points over their Qwen3-VL backbones, matching GPT-5.5 and Claude Opus 4.8 on visual quality with fewer content errors."
+description: AesCode uses a reference image as an aesthetic prior to train code
+  models that generate slides, posters, and dashboards; AesCode-8B and
+  AesCode-32B gain 31.1 and 22.4 Visual points over their Qwen3-VL backbones,
+  matching GPT-5.5 and Claude Opus 4.8 on visual quality with fewer content
+  errors.
 pubDatetime: 2026-10-14T14:39:38.627Z
-draft: true
+draft: false
+featured: false
 tags:
   - workflows-and-agents
 ---
@@ -35,3 +40,4 @@ This gives developers a path to generate information-dense visual artifacts — 
 ## Sources
 
 - [AesCode: Aesthetic Code Generation with Decoupled Cross-Modal Rewards (Hugging Face Papers)](https://huggingface.co/papers/2610.18860)
+
