@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+<title>Diagram showing Player-1's two-stage training pipeline and its MineDojo-300 success rate gains from reinforcement learning over supervised fine-tuning.</title>
+<rect width="1200" height="630" fill="#212737" rx="24"/>
+
+<rect x="40" y="50" width="1120" height="170" rx="16" fill="#343f60"/>
+<text x="600" y="80" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="24" fill="#9aa4bf">Training Pipeline</text>
+
+<rect x="70" y="100" width="280" height="90" rx="12" fill="#212737" stroke="#ff6b01" stroke-width="2"/>
+<text x="210" y="135" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="22" fill="#eaedf3">SFT</text>
+<text x="210" y="165" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="22" fill="#eaedf3">6,044 Demos</text>
+
+<line x1="350" y1="145" x2="440" y2="145" stroke="#ff6b01" stroke-width="3"/>
+<polygon points="440,145 425,137 425,153" fill="#ff6b01"/>
+
+<rect x="450" y="100" width="300" height="90" rx="12" fill="#212737" stroke="#ff6b01" stroke-width="2"/>
+<text x="600" y="135" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="22" fill="#eaedf3">RL: 16 Synthetic</text>
+<text x="600" y="165" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="22" fill="#eaedf3">Envs (Player-1-Gym)</text>
+
+<line x1="750" y1="145" x2="840" y2="145" stroke="#ff6b01" stroke-width="3"/>
+<polygon points="840,145 825,137 825,153" fill="#ff6b01"/>
+
+<rect x="850" y="100" width="260" height="90" rx="12" fill="#212737" stroke="#ff6b01" stroke-width="2"/>
+<text x="980" y="135" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="22" fill="#eaedf3">Player-1</text>
+<text x="980" y="165" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="22" fill="#eaedf3">9B / 35B Models</text>
+
+<rect x="40" y="250" width="1120" height="340" rx="16" fill="#343f60"/>
+<text x="600" y="285" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="24" fill="#9aa4bf">MineDojo-300 Success Rate — Player-1-9B</text>
+
+<line x1="100" y1="540" x2="1100" y2="540" stroke="#9aa4bf" stroke-width="2"/>
+
+<rect x="200" y="484.7" width="150" height="55.3" fill="#9aa4bf"/>
+<text x="275" y="470" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="22" fill="#eaedf3">10.54%</text>
+<text x="275" y="565" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="22" fill="#9aa4bf">SFT</text>
+
+<rect x="500" y="473.7" width="150" height="66.3" fill="#9aa4bf"/>
+<text x="575" y="459" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="22" fill="#eaedf3">12.63%</text>
+<text x="575" y="565" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="22" fill="#9aa4bf">Best Baseline</text>
+
+<rect x="800" y="338.7" width="150" height="201.3" fill="#ff6b01"/>
+<text x="875" y="324" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="24" fill="#eaedf3">38.33%</text>
+<text x="875" y="565" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="22" fill="#9aa4bf">Player-1 RL</text>
+
+<text x="600" y="605" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="22" fill="#eaedf3">+27.8 pts gain from synthetic RL over SFT alone</text>
+</svg>
