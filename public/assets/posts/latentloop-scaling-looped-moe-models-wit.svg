@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+<title>Diagram showing LatentLoop's asymmetric compute split between two loop visits, resulting training compute savings versus two baselines, and summary of validation results across 15 model configurations.</title>
+<rect x="0" y="0" width="1200" height="630" rx="24" fill="#212737"/>
+
+<g font-family="ui-monospace, Menlo, Consolas, monospace">
+
+
+<rect x="40" y="100" width="520" height="220" rx="16" fill="#343f60"/>
+<text x="60" y="135" font-size="24" fill="#eaedf3">Two Loop Visits</text>
+
+<rect x="70" y="160" width="200" height="100" rx="10" fill="#212737"/>
+<text x="90" y="200" font-size="22" fill="#ff6b01">Visit 1</text>
+<text x="90" y="230" font-size="22" fill="#9aa4bf">Compressed</text>
+
+<rect x="330" y="160" width="200" height="100" rx="10" fill="#212737"/>
+<text x="350" y="200" font-size="22" fill="#ff6b01">Visit 2</text>
+<text x="350" y="230" font-size="22" fill="#9aa4bf">Full-res</text>
+
+<line x1="270" y1="210" x2="325" y2="210" stroke="#ff6b01" stroke-width="3"/>
+<polygon points="325,203 338,210 325,217" fill="#ff6b01"/>
+
+<path d="M430,260 C430,295 170,295 170,260" stroke="#9aa4bf" stroke-width="2" fill="none"/>
+<polygon points="170,260 164,247 178,250" fill="#9aa4bf"/>
+<text x="195" y="300" font-size="22" fill="#9aa4bf">Shared weights</text>
+
+
+<rect x="620" y="100" width="520" height="220" rx="16" fill="#343f60"/>
+<text x="640" y="135" font-size="24" fill="#eaedf3">Compute Savings</text>
+
+<text x="640" y="167" font-size="22" fill="#9aa4bf">vs vanilla MoE</text>
+<rect x="640" y="175" width="285" height="30" fill="#ff6b01"/>
+<text x="935" y="198" font-size="22" fill="#eaedf3">19.0%</text>
+
+<text x="640" y="227" font-size="22" fill="#9aa4bf">vs looped MoE</text>
+<rect x="640" y="235" width="118" height="30" fill="#ff6b01"/>
+<text x="768" y="258" font-size="22" fill="#eaedf3">7.9%</text>
+
+
+<rect x="40" y="360" width="1120" height="230" rx="16" fill="#343f60"/>
+<text x="60" y="395" font-size="24" fill="#eaedf3">Key Results</text>
+<text x="60" y="435" font-size="22" fill="#9aa4bf">15 configs, 1.3B–7B params</text>
+<text x="60" y="470" font-size="22" fill="#9aa4bf">Wins NLL in all 15 configs</text>
+<text x="60" y="505" font-size="22" fill="#9aa4bf">Top score on 9 benchmarks, 6 combos</text>
+
+</g>
+</svg>
