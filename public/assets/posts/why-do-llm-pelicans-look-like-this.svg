@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+<title>Diagram showing that AI-generated pelican SVGs look nearly identical across models, and a bar chart comparing GPT-6 Astra's Design Creativity Bench score of 65.5 to the human reference score of 92.3.</title>
+<rect x="0" y="0" width="1200" height="630" rx="24" fill="#212737"/>
+
+<defs>
+<g id="pelican">
+  <ellipse cx="0" cy="-18" rx="28" ry="16" fill="#343f60"/>
+  <path d="M -4,-18 L 36,-8 L -4,-3 Z" fill="#343f60"/>
+  <circle cx="0" cy="22" r="16" fill="none" stroke="#9aa4bf" stroke-width="3"/>
+  <line x1="-18" y1="2" x2="18" y2="2" stroke="#9aa4bf" stroke-width="3"/>
+</g>
+</defs>
+
+<g transform="translate(220,120)"><use href="#pelican"/></g>
+<g transform="translate(480,120)"><use href="#pelican"/></g>
+<g transform="translate(740,120)"><use href="#pelican"/></g>
+<g transform="translate(1000,120)"><use href="#pelican"/></g>
+
+<text x="600" y="205" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="24" fill="#9aa4bf" text-anchor="middle">Pelican SVGs from different LLMs look nearly identical</text>
+
+<text x="600" y="248" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="22" fill="#eaedf3" text-anchor="middle">Design Creativity Bench Score (0–100)</text>
+
+<line x1="150" y1="550" x2="1050" y2="550" stroke="#9aa4bf" stroke-width="2"/>
+
+<rect x="300" y="291.56" width="150" height="258.44" fill="#343f60" rx="6"/>
+<text x="375" y="275" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="28" fill="#eaedf3" text-anchor="middle">92.3</text>
+<text x="375" y="580" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="22" fill="#9aa4bf" text-anchor="middle">Human Reference</text>
+
+<rect x="650" y="366.6" width="150" height="183.4" fill="#ff6b01" rx="6"/>
+<text x="725" y="350" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="28" fill="#ff6b01" text-anchor="middle">65.5</text>
+<text x="725" y="580" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="22" fill="#9aa4bf" text-anchor="middle">GPT-6 Astra</text>
+
+</svg>
