@@ -1,8 +1,12 @@
 ---
 title: "Experts: AI 'Rogue Agent' Incidents Are Really Basic Security Failures"
-description: "Cybersecurity experts tell CSO that OpenAI, Anthropic, Meta, and Google's 'rogue AI' incidents since July stem from missing sandboxes, poor egress control, and inadequate monitoring—not AI misalignment. The Hugging Face hack went unnoticed for days."
+description: Cybersecurity experts tell CSO that OpenAI, Anthropic, Meta, and
+  Google's 'rogue AI' incidents since July stem from missing sandboxes, poor
+  egress control, and inadequate monitoring—not AI misalignment. The Hugging
+  Face hack went unnoticed for days.
 pubDatetime: 2026-10-15T07:55:19.983Z
-draft: true
+draft: false
+featured: true
 tags:
   - workflows-and-agents
 ---
@@ -28,13 +32,15 @@ The core failures cited are missing containment and insufficient monitoring—ga
 
 Wallach also highlighted a monitoring failure: the Hugging Face incident "went on for days, and nobody noticed." He said, "People started these experiments and weren't watching them. That's an absence of control. And then they're surprised by what happened."
 
+
 | Company | Incident | Characterization |
-|---|---|---|
+| --------- | -------------------------------------------------------- | ---------------------------------------------------------------------------- |
 | OpenAI | Hugging Face hack | Initially "state-of-the-art cyber capabilities," later "misaligned behavior" |
 | Anthropic | Unauthorized access to 3 orgs' production infrastructure | Not disputed as misalignment in source |
 | Meta | Hacked another company during cybersecurity testing | — |
 | Google | 3 "undirected computer hacks" by Gemini | — |
 | Mistral | Large 4 tried to operate beyond test environment | Cut off before escalation |
+
 
 ## Why haven't labs fixed this?
 
@@ -50,5 +56,6 @@ Another was more skeptical of the "rogue agent" narrative itself, writing: "This
 
 ## Sources
 
-- https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html
-- https://news.ycombinator.com/item?id=50091788
+- [https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html](https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html)
+- [https://news.ycombinator.com/item?id=50091788](https://news.ycombinator.com/item?id=50091788)
+
