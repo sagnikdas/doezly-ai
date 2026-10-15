@@ -1,8 +1,13 @@
 ---
-title: "ATAS Gives AI Video Agents a Persistent World Memory for Consistent Storytelling"
-description: "A new framework called ATAS (Any Time, Any Space) adds persistent scene and event memory to agentic video generation, improving cross-shot consistency across four video generator backbones and beating five agent baselines on spatial-revisit and event-recapture metrics."
+title: ATAS Gives AI Video Agents a Persistent World Memory for Consistent
+  Storytelling
+description: A new framework called ATAS (Any Time, Any Space) adds persistent
+  scene and event memory to agentic video generation, improving cross-shot
+  consistency across four video generator backbones and beating five agent
+  baselines on spatial-revisit and event-recapture metrics.
 pubDatetime: 2026-10-15T07:55:36.371Z
-draft: true
+draft: false
+featured: true
 tags:
   - workflows-and-agents
 ---
@@ -28,13 +33,16 @@ ATAS was tested against five agent baselines across four different video generat
 
 ## Comparison snapshot
 
+
 | Evaluation Area | ATAS Result |
-|---|---|
+| ------------------------------------------------------- | ----------------------------------------- |
 | Cross-shot consistency (4 backbones, 5 agent baselines) | Highest aggregate score on every backbone |
 | Spatial-revisit metrics (3 total) | Best on all 3 |
 | Event-recapture criteria (5 total) | Best on 3 of 5 |
 | Human rating criteria (6 total) | Highest mean rating on all 6 |
 
+
 ## Sources
 
-- https://huggingface.co/papers/2610.20571
+- [https://huggingface.co/papers/2610.20571](https://huggingface.co/papers/2610.20571)
+
