@@ -1,8 +1,12 @@
 ---
-title: "Why Do AI-Generated Pelicans All Look the Same?"
-description: "A blog post dissects why LLMs produce nearly identical pelican-on-a-bicycle SVGs, pointing to a broader 'diversity collapse' problem also measured by a new Design Creativity Bench, where top model GPT-6 Astra scores 65.5 versus a human reference of 92.3."
+title: Why Do AI-Generated Pelicans All Look the Same?
+description: A blog post dissects why LLMs produce nearly identical
+  pelican-on-a-bicycle SVGs, pointing to a broader 'diversity collapse' problem
+  also measured by a new Design Creativity Bench, where top model GPT-6 Astra
+  scores 65.5 versus a human reference of 92.3.
 pubDatetime: 2026-10-15T07:56:26.051Z
-draft: true
+draft: false
+featured: true
 tags:
   - workflows-and-agents
 ---
@@ -22,11 +26,13 @@ One Hacker News commenter explained that output diversity constraints trace back
 
 Design Creativity Bench, a separate research effort, formalizes this diversity problem by evaluating 16 frontier models across 80 open-ended UI tasks, each adapted to two distinct product domains and compared against human designer references. The headline finding: the best model, OpenAI's GPT-6 Astra, scores 65.5 against a human reference of 92.3, a substantial creativity gap despite rapid advances in generating functional websites and product UIs. The benchmark measures three dimensions instead of a single output-quality metric:
 
+
 | Dimension | What it measures |
-|---|---|
+| --------------- | -------------------------------------------------------------------------------- |
 | Originality | How distinct a model's designs are from other models' outputs for the same brief |
 | Creative Range | How much a model adapts its design decisions when the product domain changes |
 | Appropriateness | How well the generated UI satisfies the functional requirements of the brief |
+
 
 The full leaderboard, methodology, and reproducible evaluation framework are published on Hugging Face Datasets and GitHub, intended to make design creativity a measurable dimension of frontier model capability.
 
@@ -40,5 +46,6 @@ For developers building on LLMs, the sameness problem has a concrete business an
 
 ## Sources
 
-- https://arcfu.com/post/the-emperor-pelican-has-no-clothes/
-- https://news.ycombinator.com/item?id=50090443
+- [https://arcfu.com/post/the-emperor-pelican-has-no-clothes/](https://arcfu.com/post/the-emperor-pelican-has-no-clothes/)
+- [https://news.ycombinator.com/item?id=50090443](https://news.ycombinator.com/item?id=50090443)
+
