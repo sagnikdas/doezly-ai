@@ -1,8 +1,12 @@
 ---
-title: "Urbex Turns City-Scale 3D Grounding Into Active Spatial Search"
-description: "Urbex is an agentic vision-language framework that reformulates city-scale 3D grounding as active spatial search rather than candidate ranking, achieving the best Hit@1 and IoU on CityRefer while running substantially faster than the strongest ranking baseline."
+title: Urbex Turns City-Scale 3D Grounding Into Active Spatial Search
+description: Urbex is an agentic vision-language framework that reformulates
+  city-scale 3D grounding as active spatial search rather than candidate
+  ranking, achieving the best Hit@1 and IoU on CityRefer while running
+  substantially faster than the strongest ranking baseline.
 pubDatetime: 2026-10-14T14:38:58.404Z
-draft: true
+draft: false
+featured: false
 tags:
   - workflows-and-agents
 ---
@@ -32,4 +36,5 @@ This work matters for anyone building embodied AI systems—autonomous driving, 
 
 ## Sources
 
-- https://huggingface.co/papers/2610.18356
+- [https://huggingface.co/papers/2610.18356](https://huggingface.co/papers/2610.18356)
+
