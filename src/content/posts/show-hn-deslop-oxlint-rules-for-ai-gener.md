@@ -1,8 +1,12 @@
 ---
 title: "Deslop: Oxlint Rules That Catch AI-Generated TypeScript Slop"
-description: "Deslop is a new Oxlint plugin that adds opinionated rules to reject low-evidence, AI-slop code patterns in TypeScript, vendoring rules from dmmulroy/anti-slop plus new deslop-specific checks; it surfaced on Hacker News with 31 points and 7 comments."
+description: Deslop is a new Oxlint plugin that adds opinionated rules to reject
+  low-evidence, AI-slop code patterns in TypeScript, vendoring rules from
+  dmmulroy/anti-slop plus new deslop-specific checks; it surfaced on Hacker News
+  with 31 points and 7 comments.
 pubDatetime: 2026-10-14T14:39:12.480Z
-draft: true
+draft: false
+featured: false
 tags:
   - workflows-and-agents
 ---
@@ -24,9 +28,10 @@ Deslop ships as compiled JavaScript, meaning it works with any Oxlint JS-plugin 
 
 ## What did the Hacker News community think?
 
-The discussion reflected a broader trend of developers building defensive tooling around AI-assisted coding. One commenter on Hacker News described having "an extremely defensive/aggressive lint config and test coverage near ~80%" as essential for AI-assisted feature development on their project, specifically calling out `no-reflect-get` as a rule worth adopting because "claude LOVES `Reflect.get` for some reason." Another commenter directly asked the key comparative question: "I agree https://github.com/dmmulroy/anti-slop is very cool... But what does this add beyond that?" — highlighting that Deslop's main value-add, per the source material, is its additional rules and consolidated namespace layered on anti-slop's base. Other commenters mentioned pairing tools like this with ast-grep rules and referenced CodeRabbit's ast-grep-essentials repo as inspiration for similar defensive linting setups, while another drew a comparison to the long-standing eslint-plugin-unicorn project.
+The discussion reflected a broader trend of developers building defensive tooling around AI-assisted coding. One commenter on Hacker News described having "an extremely defensive/aggressive lint config and test coverage near ~80%" as essential for AI-assisted feature development on their project, specifically calling out `no-reflect-get` as a rule worth adopting because "claude LOVES `Reflect.get` for some reason." Another commenter directly asked the key comparative question: "I agree [https://github.com/dmmulroy/anti-slop](https://github.com/dmmulroy/anti-slop) is very cool... But what does this add beyond that?" — highlighting that Deslop's main value-add, per the source material, is its additional rules and consolidated namespace layered on anti-slop's base. Other commenters mentioned pairing tools like this with ast-grep rules and referenced CodeRabbit's ast-grep-essentials repo as inspiration for similar defensive linting setups, while another drew a comparison to the long-standing eslint-plugin-unicorn project.
 
 ## Sources
 
-- https://github.com/maharshi365/deslop
-- https://news.ycombinator.com/item?id=50075809
+- [https://github.com/maharshi365/deslop](https://github.com/maharshi365/deslop)
+- [https://news.ycombinator.com/item?id=50075809](https://news.ycombinator.com/item?id=50075809)
+
