@@ -6,7 +6,7 @@ description: A blog post dissects why LLMs produce nearly identical
   scores 65.5 versus a human reference of 92.3.
 pubDatetime: 2026-10-15T07:56:26.051Z
 draft: false
-featured: true
+featured: false
 tags:
   - workflows-and-agents
 ---
