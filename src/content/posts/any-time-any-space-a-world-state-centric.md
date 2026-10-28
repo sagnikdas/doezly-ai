@@ -7,7 +7,7 @@ description: A new framework called ATAS (Any Time, Any Space) adds persistent
   baselines on spatial-revisit and event-recapture metrics.
 pubDatetime: 2026-10-15T07:55:36.371Z
 draft: false
-featured: true
+featured: false
 tags:
   - workflows-and-agents
 ---
