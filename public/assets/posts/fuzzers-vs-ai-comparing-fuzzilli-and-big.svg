@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <title>Bar chart comparing bug counts found by BigSleep and Fuzzilli, alongside a Venn diagram showing their 25 to 60 percent overlap in detected vulnerabilities.</title>
+  <rect x="0" y="0" width="1200" height="630" rx="24" fill="#212737"/>
+
+  
+  <rect x="60" y="100" width="500" height="340" rx="16" fill="#343f60"/>
+  <text x="80" y="140" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="24" fill="#9aa4bf">Vulnerabilities Found (6 months)</text>
+
+  
+  <line x1="100" y1="400" x2="520" y2="400" stroke="#9aa4bf" stroke-width="2"/>
+
+  
+  <rect x="140" y="180" width="90" height="220" fill="#ff6b01"/>
+  <text x="185" y="170" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="26" fill="#eaedf3">45</text>
+  <text x="185" y="422" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="22" fill="#eaedf3">BigSleep</text>
+
+  
+  <rect x="350" y="218" width="90" height="182" fill="#9aa4bf"/>
+  <text x="395" y="208" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="26" fill="#eaedf3">37</text>
+  <text x="395" y="422" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="22" fill="#eaedf3">Fuzzilli</text>
+
+  
+  <rect x="620" y="100" width="520" height="340" rx="16" fill="#343f60"/>
+  <text x="640" y="140" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="24" fill="#9aa4bf">Bug Overlap Between Tools</text>
+
+  <circle cx="760" cy="300" r="90" fill="#ff6b01" fill-opacity="0.55"/>
+  <circle cx="900" cy="300" r="90" fill="#9aa4bf" fill-opacity="0.55"/>
+
+  <text x="710" y="420" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="22" fill="#eaedf3">BigSleep</text>
+  <text x="950" y="420" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="22" fill="#eaedf3">Fuzzilli</text>
+
+  <text x="830" y="294" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="24" fill="#eaedf3">25–60%</text>
+  <text x="830" y="322" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="22" fill="#eaedf3">overlap</text>
+
+  
+  <text x="600" y="500" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="24" fill="#eaedf3">Same pipeline, different bugs — complementary, not interchangeable.</text>
+</svg>
