@@ -1,8 +1,13 @@
 ---
 title: "Fuzzilli vs. BigSleep: How Does Google's AI Bug Finder Compare to Fuzzing?"
-description: "Project Zero compared Fuzzilli, Google's JavaScript engine fuzzer, against BigSleep, an LLM-based bug finder, over six months of V8 vulnerability hunting. BigSleep found 45 vulnerabilities to Fuzzilli's 37, but overlap between the two systems' findings was only 25-60%, suggesting the approaches remain complementary rather than redundant."
+description: Project Zero compared Fuzzilli, Google's JavaScript engine fuzzer,
+  against BigSleep, an LLM-based bug finder, over six months of V8 vulnerability
+  hunting. BigSleep found 45 vulnerabilities to Fuzzilli's 37, but overlap
+  between the two systems' findings was only 25-60%, suggesting the approaches
+  remain complementary rather than redundant.
 pubDatetime: 2026-10-28T07:03:55.799Z
-draft: true
+draft: false
+featured: false
 tags:
   - workflows-and-agents
 ---
@@ -40,5 +45,6 @@ The source material flags cost as the next natural question, how expensive each 
 
 ## Sources
 
-- https://projectzero.google/2026/10/fuzzing-v-AI.html
-- https://lobste.rs/s/rswyzt/fuzzers_vs_ai_comparing_fuzzilli
+- [https://projectzero.google/2026/10/fuzzing-v-AI.html](https://projectzero.google/2026/10/fuzzing-v-AI.html)
+- [https://lobste.rs/s/rswyzt/fuzzers_vs_ai_comparing_fuzzilli](https://lobste.rs/s/rswyzt/fuzzers_vs_ai_comparing_fuzzilli)
+
