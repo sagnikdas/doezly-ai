@@ -7,7 +7,7 @@ description: Project Zero compared Fuzzilli, Google's JavaScript engine fuzzer,
   remain complementary rather than redundant.
 pubDatetime: 2026-10-28T07:03:55.799Z
 draft: false
-featured: false
+featured: true
 tags:
   - workflows-and-agents
 ---
